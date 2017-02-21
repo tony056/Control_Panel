@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import ProgressKit
 
 class TaskDisplayViewController: NSViewController {
 
@@ -15,13 +16,15 @@ class TaskDisplayViewController: NSViewController {
     let instructions = ["Start", "Stop"]
     
     var userName : String = ""
-    var recordType : Bool = 0 // 0 is for training set, 1 is for evaluation set
+    var recordType : Bool = false // 0 is for training set, 1 is for evaluation set
     var isRecording : Bool = false
     var trialNum : Int = 3
     var currentTask : Int = 0
     var currentTrialNum : Int = 1
     
     
+    
+    @IBOutlet weak var waitingProgress: NSView!
     @IBOutlet weak var instructionLabel: NSTextField!
     @IBOutlet weak var displayTrialLabel: NSTextField!
     @IBOutlet weak var displayTaskLabel: NSTextField!
@@ -35,6 +38,13 @@ class TaskDisplayViewController: NSViewController {
             self.keyDown(with: event)
             return event
         }
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(progressBarStatus), name: Notification.Name(rawValue: "ok"), object: nil)
+    }
+    
+    func progressBarStatus() {
+        self.waitingProgress.isHidden = !self.waitingProgress.isHidden
+        
     }
     
     override func keyDown(with event: NSEvent) {
@@ -66,9 +76,20 @@ class TaskDisplayViewController: NSViewController {
         } else {
             //send start message
             startTrial()
+            
         }
         self.isRecording = !self.isRecording
+        progressWaiting()
         updateUI()
+    }
+    
+    func progressWaiting(){
+        print("waiting")
+        self.waitingProgress.isHidden = false
+        if !self.waitingProgress.isHidden {
+            let view = self.waitingProgress.subviews[0] as! MaterialProgress
+            view.animate = true
+        }
     }
     
     func finishTrial(){
@@ -116,6 +137,9 @@ class TaskDisplayViewController: NSViewController {
         tf.frame = titleRect
         
         ControlManager.shareInstance.sendChannelInfo(user: self.userName)
+        
+        self.waitingProgress.isHidden = true
+        
     }
     
     func startAction(content: String){
@@ -128,7 +152,7 @@ class TaskDisplayViewController: NSViewController {
     
     func getFileName() -> String{
         var fileName = self.userName + "_"
-        fileName += Int(NSNumber(value: self.recordType)) + "_"
+        fileName += String(Int(NSNumber(value: self.recordType))) + "_"
         fileName += self.tasks_for_name[self.currentTask] + "_"
         fileName += String(self.currentTrialNum)
         return fileName

@@ -8,6 +8,7 @@
 
 import Cocoa
 import PubNub
+import SwiftyJSON
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate, PNObjectEventListener {
@@ -22,7 +23,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, PNObjectEventListener {
         let configuration = PNConfiguration(publishKey: self.pKey,subscribeKey: self.sKey)
         self.client = PubNub.clientWithConfiguration(configuration)
         self.client.addListener(self)
-        self.client.subscribeToChannels(["device"], withPresence: true)
+        self.client.subscribeToChannels(["device"], withPresence: false)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -31,6 +32,15 @@ class AppDelegate: NSObject, NSApplicationDelegate, PNObjectEventListener {
     
     //handle message
     func client(_ client: PubNub, didReceiveMessage message: PNMessageResult) {
+        switch message.data.channel {
+            case "device":
+                //do something?
+                break
+            default:
+                let obj = message.data.message as! Dictionary<String, String>
+                ControlManager.shareInstance.parseResponse(content: obj)
+                break
+        }
         if message.data.channel != message.data.subscription {
             
             // Message has been received on channel group stored in message.data.subscription.
@@ -61,25 +71,25 @@ class AppDelegate: NSObject, NSApplicationDelegate, PNObjectEventListener {
                     
                     // Select last object from list of channels and send message to it.
                     let targetChannel = client.channels().last!
-                    client.publish("Hello from the PubNub Swift SDK", toChannel: targetChannel,
-                                   compressed: false, withCompletion: { (publishStatus) -> Void in
-                                    
-                                    if !publishStatus.isError {
-                                        
-                                        // Message successfully published to specified channel.
-                                    }
-                                    else {
-                                        
-                                        /**
-                                         Handle message publish error. Check 'category' property to find out
-                                         possible reason because of which request did fail.
-                                         Review 'errorData' property (which has PNErrorData data type) of status
-                                         object to get additional information about issue.
-                                         
-                                         Request can be resent using: publishStatus.retry()
-                                         */
-                                    }
-                    })
+//                    client.publish("Hello from the PubNub Swift SDK", toChannel: targetChannel,
+//                                   compressed: false, withCompletion: { (publishStatus) -> Void in
+//                                    
+//                                    if !publishStatus.isError {
+//                                        
+//                                        // Message successfully published to specified channel.
+//                                    }
+//                                    else {
+//                                        
+//                                        /**
+//                                         Handle message publish error. Check 'category' property to find out
+//                                         possible reason because of which request did fail.
+//                                         Review 'errorData' property (which has PNErrorData data type) of status
+//                                         object to get additional information about issue.
+//                                         
+//                                         Request can be resent using: publishStatus.retry()
+//                                         */
+//                                    }
+//                    })
                 }
                 else {
                     

@@ -47,5 +47,18 @@ class ControlManager: NSObject {
         self.currentChannel = channel
     }
     
+    func parseResponse(content: Dictionary<String, String>){
+        let from = content["from"]
+        
+        if from == "mac" {
+            return
+        }
+        
+        let response = content["response"]
+        if response == "ok"{
+            NotificationCenter.default.post(name: Notification.Name(rawValue: response!), object: self)
+        }
+    }
+    
     
 }
