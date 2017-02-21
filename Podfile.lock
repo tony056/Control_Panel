@@ -1,0 +1,20 @@
+PODS:
+  - ProgressKit (0.6.1)
+  - PubNub (4.5.13):
+    - PubNub/Core (= 4.5.13)
+  - PubNub/Core (4.5.13)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - ProgressKit (~> 0.3)
+  - PubNub (~> 4.1)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ProgressKit: c6c640344bb7512db1c9c7e33dee63c8f663b98f
+  PubNub: 53711c37f9bcd8f927f154ca91774910a6b552ed
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 0d42f8a264f8125abe2eedf9d3c42bd6964e7968
+
+COCOAPODS: 1.2.0

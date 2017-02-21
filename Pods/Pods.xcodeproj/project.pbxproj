@@ -1,0 +1,2073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0157A5ED1263F44B677004770DD64741 /* PNStateModificationAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 34822AD249DB4739AC9E76562F4EE9A8 /* PNStateModificationAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02109C98E4084D163B2077CA3033EB1F /* PNAES.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E888DE7138D131F25B214D34A0025 /* PNAES.m */; };
+		02B9F0304E29516D1B28C36598A8D006 /* PNResult+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBC8BB8998EC875B450B4314814F3EB /* PNResult+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0335FD21E527509E68E240B2045FD733 /* PNMessagePublishParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C42ADD90E5A67ACC234838C0DAA859 /* PNMessagePublishParser.m */; };
+		04240FC95FECC84B3B716400BA3BC3BF /* PNLeaveParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 995D6BE465B68CA379D5E15EACEDF036 /* PNLeaveParser.m */; };
+		04A368A2C614CDD2AE59DE9D9C1F92B2 /* PNStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E1EA16F3A59114ED99B04AFCA4DB43 /* PNStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0617A3AA979405A1DFD83FB00B8A95CC /* PubNub+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF24A6962855CDE1D1299A141127F79 /* PubNub+Core.m */; };
+		0717F9B3231E7B0FBAB10D99C0FB79E1 /* PNChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 51882DEFC1E5DE5B9C99E6FAED6CCE1D /* PNChannel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0726EA85D90A7E3710757F71B497DA33 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		078711FC0608CBB7A3C59F27DB022447 /* PubNub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A714E8339C5FE8CCB387C56E13C4AB5A /* PubNub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		079C94D9685C471AC550ED0B4E67D206 /* PNStreamAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 632106995BE80642A08431E6DC403428 /* PNStreamAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F2869E629C635488574D4BE7051FAE /* PNUnsubscribeAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DB0AC91E2029B7C26657F2D7F99AC4 /* PNUnsubscribeAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B0E7E1AEE8ACEB404560B54D224C085 /* ProgressKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A7381CC43A35E15854522AE1927C5E /* ProgressKit-dummy.m */; };
+		0BC5B675D6665DE057D7187BDD0AB3C0 /* PubNub+CorePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A9DCCFAAD3B3A323B6AE1EE821A419 /* PubNub+CorePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0BCE8E56CD5B874E683740EBA92171CA /* Crawler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A62804CC4B92EAA93817E7A471F48 /* Crawler.swift */; };
+		0D99AF66FE7D25461C4015009B9D11FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		0F331AE88ABA3D3DA23E417464EDB1C5 /* PNTimeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 93612183D2DEBA60F0FE566C362FFE71 /* PNTimeParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		109090DCF717B13DA4570CFF3E7C6219 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		1378D1713EB9DFA656EC2E7019A581CD /* PNPresenceWhereNowAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6C63378AC18CCB3762AED889CFACDB /* PNPresenceWhereNowAPICallBuilder.m */; };
+		14538C54DDC2531CF7E589FB69B89F73 /* PNHistoryAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E6EC5E3CDD6EC759DB62239C26D65E /* PNHistoryAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16169E1743898A0D6A1D5D6241F910EF /* PNClientState.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9E43DFF998C115B6F0984F1BF24875 /* PNClientState.m */; };
+		16CE253CDA783D6FD3837A2C73D4B417 /* PubNub.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F394D82779D093377F22AC21942AC4 /* PubNub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191E52BED136BD49EA8A008EE0800431 /* PNPublishSizeAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDB3C7AAD98025D2389F4064286EE5E /* PNPublishSizeAPICallBuilder.m */; };
+		1D987CA3D53A27A0BA205AEDD4C64C6D /* PNPushNotificationsAuditParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CE87F405C95EC87DFC9BFB63CDD0C2 /* PNPushNotificationsAuditParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1EFC254E37B647586D59CB70F40704CF /* PNAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0863FD5C13078F0D8AB1AF1CFC8B6D6 /* PNAPICallBuilder.m */; };
+		1FC64CF010A031310E2ECA1F893151A1 /* PNClientInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB44FB4EA1B1AB3283575D35BAF6199C /* PNClientInformation.m */; };
+		21567EBEE3068F5174FD7C4F1967BE9F /* Pods-ControlPanelUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FADD4EFFE3E5CB3CAFECAD36B7D814 /* Pods-ControlPanelUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2183409DDCB781806D9E259A2FCC644E /* PNJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CFB176EE994C247F2D588E26E47E47 /* PNJSON.m */; };
+		22E83FBCB523E3C98349AA4C04133BBF /* PNStreamAuditAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECEF21AB7018552E5DEF196C8DC5FEA /* PNStreamAuditAPICallBuilder.m */; };
+		237CE8183B24FC8A9E7E1D5A70A718B5 /* PNPresenceWhereNowResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D12B3E4898A496287FD487EBC3002 /* PNPresenceWhereNowResult.m */; };
+		2510977799877D915C53844300DF564D /* PNPresenceGlobalHereNowResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 120472799CE3F6B0B9E46B7227EDABBC /* PNPresenceGlobalHereNowResult.m */; };
+		251FBFDEAFCA3AF310AC7BECCA891A94 /* PNHeartbeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4812FF7C942B13E88856032432B82EEB /* PNHeartbeat.m */; };
+		25D9D8549C21DCCF583B0F232B5DC735 /* Pods-ControlPanelTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC871E0B4DD124BF324602752C445962 /* Pods-ControlPanelTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FF52CDC1BE3C213B9EA0C09AE0308B /* PNResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D393F6F4D3A04D15E49BA833A834004B /* PNResult.m */; };
+		2717A13503DF26BD86D48EC725059EF0 /* PNAPICallBuilder+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D97C39E583DE78F5069597D9F26D144 /* PNAPICallBuilder+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2792C03E9BBB084958464381A31BBA61 /* PNStateAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB94D5C37E50F1388B1B115992F8433C /* PNStateAPICallBuilder.m */; };
+		285DBF8D44C2EC56350850967C5C3813 /* PNDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F43D6F872DD0F5CDAB62D682E82CE005 /* PNDictionary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2BFBD270780FD2C13496395DB6FA78F1 /* PNChannelGroupModificationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 949EDB0974343AB1DF5A47D68B1BEE8B /* PNChannelGroupModificationParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2F630A57D30EF4B580E57C26FE8B3870 /* PNURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C9992FFC479644B7DB0428447FFDF3 /* PNURLRequest.m */; };
+		30504259CD48E1F9C77DC3C7034C063D /* PNGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 032E40F6D11B5F4DDCADBB7444AC8DAF /* PNGZIP.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		31674223C11AAE8A1DEC94886A20A117 /* PNAPNSModificationAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B1053C6D38BD3DC1D575634D2A1738D9 /* PNAPNSModificationAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3497C8DA3EF86850E4F475C820525B2D /* PNChannelClientStateResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FDA4FD1FFFD4B767645FA860365E5B /* PNChannelClientStateResult.m */; };
+		3618A63F3B9A81A15A81EEF27205B828 /* PNLLogFileInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DFE7F5CBEDD6DEA03C605F98AD9F48 /* PNLLogFileInformation.m */; };
+		36568C93062EADE45FE4470A1E9BEB70 /* PNTimeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CAD07EB80659B32C8FA7AC654A707C /* PNTimeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3669AE2B6179824EE0165FCC1AC443E8 /* PNPresenceChannelGroupHereNowAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 963CC38C17D46C147ED1179F51AC0B7E /* PNPresenceChannelGroupHereNowAPICallBuilder.m */; };
+		383B4A0214CFA2D9128F416462F05D4C /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7886C05012580469A5F89C733DED8769 /* CircularProgressView.swift */; };
+		3B24B58BF1BD9632661306FC8590B6CE /* PNAES.h in Headers */ = {isa = PBXBuildFile; fileRef = C763ED44AE490F523B6648447CEA1EFC /* PNAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D8D1433DBE84B344518A19A2EF3C62F /* PNURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F60C3C711B51708ABC75CEA1911216 /* PNURLRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3F8C86F2F902C7D5C8FE06E7F04E36C6 /* PNChannelGroupAuditionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4581C78966509ADEFD9895DEEBCD4759 /* PNChannelGroupAuditionParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		412CDDC941F67A11FD08955D34FA556C /* PNSubscribeAPIBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD256EAC411C74761FD7483A8503254 /* PNSubscribeAPIBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4367CC3133CE4DC49ADC882BDA0853FC /* PubNub+Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBC95CF63AB57A6899E2146F4DF77B3 /* PubNub+Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4522C34EEB6F6730E05989877CF131B8 /* PNAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CBCD87BCD030A5671142A1B260E250 /* PNAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4651F98045527C04B950373E24D7A8B8 /* PNChannelGroupAuditionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FF6ED95C65CBCFB1761AA4E78AB00 /* PNChannelGroupAuditionParser.m */; };
+		46A37A48FFCDB28CEA825DDB68DA0D40 /* PubNub+Presence.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAC40D80B58A0AFB811C0BDDE8C4A68 /* PubNub+Presence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		470A2FF6DA16869CD04EDD20C58A0E49 /* PNClientStateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E6543A0074496914BAB28FF60CA1793E /* PNClientStateParser.m */; };
+		47E6DB452EE0D21E8D2F6E8AFCE73DCC /* PubNub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4FC067DD574412EAB5E435C02161F9 /* PubNub-dummy.m */; };
+		49AC5F53104B6783553AEBDEDA2C47E4 /* PNHeartbeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE1230034361745C520EAB63A1EB20E /* PNHeartbeat.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4A3BD81E8EE7772C252881E29C73AF51 /* PNStateListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD75A4C055AA0ABBFE7DA723EC8494 /* PNStateListener.m */; };
+		4AC7AA32C195AE6021988B8E0A797126 /* PNLeaveParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F6B055747F9E30B94977AC1B9018C0 /* PNLeaveParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4B4FE064AEEA6B64043E56A29264338E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E372C260F90FE3615BAFA58A42C27 /* BaseView.swift */; };
+		4BA2F7A4DDB2069467FA6D438B38C951 /* PNClientState.h in Headers */ = {isa = PBXBuildFile; fileRef = F5666E1DBF06389D35E5A907751A908C /* PNClientState.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4BA778C3EB435841575D12712B3CEDBA /* Pods-ControlPanelUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C701C446C719B85D7E77EEBA73ACD328 /* Pods-ControlPanelUITests-dummy.m */; };
+		4C19C5082CD36E1F5095629459930ADA /* PNErrorStatus+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D356B5F73B0B3E664DD0CF29D51349F /* PNErrorStatus+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4F2339981CCDA55E262540E0C35BFD2B /* PubNub+Subscribe.h in Headers */ = {isa = PBXBuildFile; fileRef = 305D3F7585CA0C3452277FE0C94CDB34 /* PubNub+Subscribe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5150F4206D4909B230ED338F4A3F78D4 /* PNPresenceChannelHereNowAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 879443760C7C9AA8DFDDA90BA7EE66C2 /* PNPresenceChannelHereNowAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51FB9B1A01DC2FF6C0AAEEE0080B8A96 /* PNHistoryResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 330EA5A5175B75271C43A38DCE0A5EA3 /* PNHistoryResult.m */; };
+		5343A23F1113BE6FBA70B8EC79C24985 /* PNPushNotificationsStateModificationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C02304B8AA9EE3439B547FFB4BC2C5 /* PNPushNotificationsStateModificationParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		55487A7CE0E1EA6D8DD8CC0397ADD497 /* NSURLSessionConfiguration+PNConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF6FD6880838C1C62D3A088EA4A0D11 /* NSURLSessionConfiguration+PNConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E65FDA11A7AC9A11515A4670E897BB /* PNTimeAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F16908F1C7B55DD099209B62674CA4 /* PNTimeAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57C91B20104B716D67BE32042CE10D10 /* PNPresenceChannelHereNowResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 1777180F5DCEAAB4BC90AA9BAEB18230 /* PNPresenceChannelHereNowResult.m */; };
+		5B02E64F4588419F1914A9404F713A54 /* PNDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CE431A192AF874F9942411A77ADF3 /* PNDictionary.m */; };
+		5EB99CD9A8CB592C17E101A81F9642C3 /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 67251A2017DA331217B70073A0A02FD8 /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.m */; };
+		5F2A2EF78C70F831D11939C69B574604 /* PNPublishAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0989D5D8AB5838D498E17C9BCDCAC32B /* PNPublishAPICallBuilder.m */; };
+		5FC89CEA7A752F14C073F8814E1E146E /* MaterialProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4D54BC27AA635595699338BAAF6D2 /* MaterialProgress.swift */; };
+		611B61B42F21D3FB1C0246B04ABD57CC /* PNSubscribeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AD7486F40657A50F00C48A51D50726 /* PNSubscribeParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		61856A23C158F14036586E79DD183F89 /* PNAcknowledgmentStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = E813DC555ED0D6C8939B862979C75299 /* PNAcknowledgmentStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D465C88F2CEF9846CB338A02F719A5 /* PNConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E20C582535E7E6A3ED1A7DAEFD01B58 /* PNConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63DC426F27D1D0F748016EEBB6131359 /* PNClientInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 75174C34F856216D54D6ED8336A891EA /* PNClientInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6582D60579186F9F75BC4742B243B059 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A5F9149E256783CA2EB7ABBF2552A2 /* SwiftyJSON-dummy.m */; };
+		65933ACC6D14778FA6C468CEBB14CAF1 /* PNLLogFileInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2800E4ECCF90707AC5B132E24C05967 /* PNLLogFileInformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		663BC2EE0B7900CFB76835BB89171F9A /* PNSubscribeStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = F7605AB699CF4DEFA07F345D51B95FC6 /* PNSubscribeStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		673BF0F1766C28D5F584BEC729343E24 /* RotatingArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C050F1103285819D0AB224753FA1A /* RotatingArc.swift */; };
+		6C0FB9A7433F4E985AD130FA7FDF9E65 /* PNNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB708B88DFA7CD2E3EEFF5CAF5EA46 /* PNNetwork.m */; };
+		6F4F09F7EED554DEA3240D595E34D457 /* PNPushNotificationsAuditParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5C078A4298E7DC5B3BEA7C34EE75E /* PNPushNotificationsAuditParser.m */; };
+		70B3CE873FFFCDAE846D7890D175A1CA /* PNPublishStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0426B14208B6E3A95CF2B8A4335D3F /* PNPublishStatus.m */; };
+		72B92EDAB0F71BA266F0957D89CDFC33 /* PNSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = EA795A512E288912894B071B336A566F /* PNSubscriber.m */; };
+		749FC177A829CEB0CF4D04FE2E073743 /* PNHistoryAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AECC9919BDCBF536D95B0CB745851180 /* PNHistoryAPICallBuilder.m */; };
+		76C6C596C09008BBA6BF2F3FD43017FB /* PubNub+APNS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE4E769DCE9C69F9DB4FABD511AB18F /* PubNub+APNS.m */; };
+		76C78D62EF7D5E0FF0061D8111EF0DAE /* PNPushNotificationsStateModificationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B93E17AD12BF3055164281A7F0F499C6 /* PNPushNotificationsStateModificationParser.m */; };
+		77319F6E370D5E488250B19C6666EF88 /* PNSubscribeChannelsOrGroupsAPIBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = C9100AA13942BCC9B21631AA34CA3FF2 /* PNSubscribeChannelsOrGroupsAPIBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79045F0C749D0896EAA029A1C0F1F151 /* PNAPNSAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 33313CC78176CF6A96DCEE2C2DB5047C /* PNAPNSAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A1E734E4135FC984114688B5F747814 /* PNMessagePublishParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE66DF1935A4E5705398C9C77F527CD /* PNMessagePublishParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7AB4B0BA4A9A4230FE0870B1524B1912 /* PNPresenceWhereNowResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D12A77329785356348945CB6526FF3 /* PNPresenceWhereNowResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B3A716973A804991FFDBE690C4D8257 /* PNAcknowledgmentStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C3CE6DF01B170F3E03CADD42BC42D /* PNAcknowledgmentStatus.m */; };
+		7B8A1936CF51070D77FAE4822D841642 /* PNKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E5496A5E3B33E2717E8D088FA11F9D /* PNKeychain.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7C373EFF2C0F2B3FC6869DD1B10BDA21 /* PNHistoryResult.h in Headers */ = {isa = PBXBuildFile; fileRef = B897118317376074B028A1ED2FB1CEE3 /* PNHistoryResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4CF67B7A0A4A7EF7375D3DFFBA6937 /* PNPresenceWhereNowParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A478986465705ABD206BB17A8DF0A /* PNPresenceWhereNowParser.m */; };
+		7C6326FBBD39D4FBAD28F420B3B85ED1 /* PNTimeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCA3F76BB0C9D9D008E67CB5A270B77 /* PNTimeResult.m */; };
+		7CC1423260B089653FBFEFD65B7C878F /* PNEnvelopeInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 183CDC43508581C4F7AE832F819898A5 /* PNEnvelopeInformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7CE04EED285E5C3427BBA03511EBF61F /* PubNub+Presence.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F35B58893DD46F5D0CC61FAB1F8BC00 /* PubNub+Presence.m */; };
+		7FCD7F741F56A4F8A8A55B9FA46297A1 /* PNStateModificationAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D9AD830C1F32B88D9311F6FDA8AC69 /* PNStateModificationAPICallBuilder.m */; };
+		802B84D441382A4B7756B2DDAEC4DBF5 /* PNResult.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF5EB6C6438BD36128360B3ADAA2FAF /* PNResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80869D72F2F504E852E57EBC43EA4EC0 /* PNSubscribeStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = BC11E6586F14123C0DA396FB41C2F205 /* PNSubscribeStatus.m */; };
+		8210FDAF812E71EB5BB0516E9D646D83 /* PNPublishSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 2245D5AF9DEF3E4FBE9A717DC7BB4B7C /* PNPublishSequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		853C065C0FDF2A7D23142AF2CFCE7079 /* PNPublishStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA7E491B20851A247ED149C02189C10 /* PNPublishStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		855CF82F56BD45C5B6A96644D20F88A6 /* ProgressUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3E9CC474D4C2F2C1942E15926B83A0 /* ProgressUtils.swift */; };
+		85F59D4BDDB28859B9D72382BC67FB5F /* PNErrorStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C26E86141C9FDC81250FD3E29721077 /* PNErrorStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8796D4196916A00A6AA1C2EF3C3BF0B1 /* PNTimeAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D56E1185C513110EE39D7C049E0DBF /* PNTimeAPICallBuilder.m */; };
+		8990DD001E6109553C4054D95D4A8B87 /* PNHistoryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1666676392D53BA3F9C4BD1C47F80 /* PNHistoryParser.m */; };
+		89D9A32F30F750F78BA81468A08803CE /* PubNub+Publish.m in Sources */ = {isa = PBXBuildFile; fileRef = 1092222B7C4A00DACF2A1E764005CC13 /* PubNub+Publish.m */; };
+		8AB0ACEB1D3330466EF8E096187D895E /* Pods-ControlPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C55842AA14028A9D7CE5D8E633628D /* Pods-ControlPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AB17DFAD6794F579329BC2E1F3D55A8 /* PNPresenceGlobalHereNowResult.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA75242F777B6C82FF7795C7FBF04BF /* PNPresenceGlobalHereNowResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF9B62D28C371410401E1AAF77090DE /* PubNub+Subscribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BCBD53203231F01A207CF82C0F331 /* PubNub+Subscribe.m */; };
+		8C236DDDE7A7B54F7A27674C7DC4A15B /* PNNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D17423EF1D8FFD1A8C6F00FE6B0C46 /* PNNumber.m */; };
+		8C39488E3B83B36454AB425D5180BA95 /* PNAPNSModificationAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89595AD28F5D03D36E231DDF9D049CA3 /* PNAPNSModificationAPICallBuilder.m */; };
+		9052171EC7C6B09B1474D32AEBC48BE4 /* PNRequestParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8047F9C85D195E25FEF054EDA3FDFC /* PNRequestParameters.m */; };
+		90A9A6402980F66E8D3F00FF801DEAC2 /* PNPresenceAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C8EFA7E6DA29910F8A2F84D9539BE7 /* PNPresenceAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		916ED7F830733D16EDD079ACC386D0F1 /* PNConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CAB06AF673A69CC920C540882DAAB2 /* PNConfiguration.m */; };
+		92AF8A1193E7C3FC1A695402C622D5D1 /* PNStateAuditAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC8809A3867A8B93315F1A028E43810 /* PNStateAuditAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938DF44536E5385BE5EE54547B9AB2A4 /* PNSubscriberResults.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCB7AC619A6A3E6132EE9034105AFC2 /* PNSubscriberResults.m */; };
+		93B8927C83B3003A6EC4CD5B490BE583 /* IndeterminateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83706200E0A591AFD589D315663CE43 /* IndeterminateAnimation.swift */; };
+		93C762F955C336C7634A2A6C1630E4FD /* PNErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E410E928D6DFB76C3C3DDAA384514C /* PNErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D9D9DB5377925BA012397B646D7ADD /* PubNub+Publish.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DEC6BB0D4421D99B95B9509B52F4F5 /* PubNub+Publish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947BC56D983309642A860BD060E82C06 /* PNChannelGroupClientStateResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 850FBB0BD95B1AA15755BEB85FBD829F /* PNChannelGroupClientStateResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D6EDA760F27B5ACF3F2AC1A9970334 /* PNRequestParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FF6CD22AE49A63CB0C3B69DA7E5340 /* PNRequestParameters.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AAF5789CF87AC8D6C8E8D7906820F42 /* PNStreamAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E634C794A4BB7DAB8C58589F594C78E2 /* PNStreamAPICallBuilder.m */; };
+		9B3ACD58350E7A4A6EB0968931B1A64C /* PubNub+Time.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B75D794B4F88FACBF8B968FFDE8B48E /* PubNub+Time.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8F4DFFBEE25D24843B6DAC9778B6A1 /* PNChannelGroupsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 397FEF4074E2B8A6BCB8E2FD9DDC0F9E /* PNChannelGroupsResult.m */; };
+		9CAAA38347D456D9A7E3B2B2282D2EB1 /* PNSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 13489282E0D456FFCCFE9567C1A5F86D /* PNSubscriber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9D58F9F13E14F4AC14C4DE183EB68F0B /* PNAPNSAuditAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A86D7434D4577D42955ADDF7227B556B /* PNAPNSAuditAPICallBuilder.m */; };
+		A06FFA01B30118DA52DC2AFE90F28E0C /* PNUnsubscribeAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A4967C123D36C1C584839028BB2E57 /* PNUnsubscribeAPICallBuilder.m */; };
+		A07DEE1E229884CACF5C99AD42EDDFA6 /* PNData.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB88409E86449E8FF486EBB1B3018DE /* PNData.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A0AEB3FC0D571DDEECCA1252EFE608A2 /* PNEnvelopeInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = C58EEBA38FC0B7A1B1433D541AD964A6 /* PNEnvelopeInformation.m */; };
+		A11A185AF73DE1CE1910F5DB7155362C /* PNParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 729F579401D5E2DDAD77D82A23278F8C /* PNParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A18BB466F0D6767BF5267C5681536BC9 /* PNAPNSEnabledChannelsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 013BF6857B5428F3439AF9BEC8B5BAE6 /* PNAPNSEnabledChannelsResult.m */; };
+		A20400FC5B02084CF3E9009C27500A8B /* PNStateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C5159553DFA02A71B15C0E78373E19 /* PNStateListener.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A23A1FFD1CE8577B38997F82D465EF36 /* DeterminateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982394E6F48D86314CA6F6B90CEB8381 /* DeterminateAnimation.swift */; };
+		A58BF80F406C7F5CB23C9D5734240D1B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3F9EF1A74183C58961C948016F051 /* ProgressBar.swift */; };
+		A5C11CA5FE00E0CCE50ACC41F7512473 /* PNNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = AA126BD31984CA9816320D6829E1AE6D /* PNNetwork.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A70E854AD751BB351A24359F95E6781B /* PNStreamAuditAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2535C5F357ED55248832955CE0A103B2 /* PNStreamAuditAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7910BDA2444E2CC69EF1CF760557F68 /* PNStreamModificationAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD4EAB18DA504D762D429653BAAF20 /* PNStreamModificationAPICallBuilder.m */; };
+		A9DB40FCB2910862EF9D0FE29D4083D5 /* PNChannelGroupChannelsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC13525D0209CFFB9E7C07728EBE7DD /* PNChannelGroupChannelsResult.m */; };
+		AB3837715750CD39DDC4635381DB3706 /* PNString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7FAC9CC5CF4698599C57DB813701FD /* PNString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB3F51DF9B2723CDE517637EC1206826 /* PNHeartbeatParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A537201421C9D871C644168B7EA8A1 /* PNHeartbeatParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ADC89494FA0552E709BFFFF8D066B20C /* PNClientStateUpdateStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D3B7248266E932D9F1B46B9F3131FF /* PNClientStateUpdateStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE23C5A7020706A88DA91C546ABDDE10 /* PNPresenceChannelGroupHereNowResult.h in Headers */ = {isa = PBXBuildFile; fileRef = C60E7617E10CDC89D08E939AFBD0618C /* PNPresenceChannelGroupHereNowResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B019DD95AC43A546203DE94FFECE152E /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE77788B595A5DF06A9EFC15B17494D /* Spinner.swift */; };
+		B0462F94255FF1995E44398155D44FBA /* PNStreamModificationAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7CC68A5420801E0BA812FF18D4F16A /* PNStreamModificationAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0CB7B9C7F50EE8EFA46D6D9FBD24D41 /* PNPresenceWhereNowAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A6118F73D8D76A96E9B67C44719A92 /* PNPresenceWhereNowAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B20C03D4C975621D6C54B13E78225E83 /* PNData.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D346E3EC315295F28EE88D9197C33 /* PNData.m */; };
+		B258DDEEEC137F060CA5A1CA8F98974A /* PNStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = D204A7BCD0305C9EEA0739AEBAA40055 /* PNStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4EB52ADA13549BAB29EF7F527254CC9 /* PubNub+SubscribePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2BECC063E54D55776680F51894F3C5 /* PubNub+SubscribePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B55FF6419D936356583BEE1A55CBE7A2 /* PNPublishSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FDB6CD66E87D8988824E2AF2D94FD8 /* PNPublishSequence.m */; };
+		B5B5B0225EEF2E396A58842C762C3A3A /* PNReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 26096ECE23308DB831BC6FD0359F69AE /* PNReachability.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B610020A0771368DCBBF9EB92D8370F1 /* PNPresenceHereNowParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 04954EFD9121B0008B10E7ED88774942 /* PNPresenceHereNowParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B6CB96BEC9F635EB4D1591D735172FA6 /* PNString.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CA4328B10FB59F44A8EAF0F3DF9BE8 /* PNString.m */; };
+		B78DC57ED1209BFE39AB3893D3A9788F /* PNNetworkResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6661AEC55A0F1A8AB73EAC9876EEFDAF /* PNNetworkResponseSerializer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7FD849505063002B3274F795299F741 /* PNChannelGroupChannelsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED1DD21A03E4ECE9630D4BE46890108 /* PNChannelGroupChannelsResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B80FA047E35BCD7E4279D2B060424E68 /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D729B25C7747A7910B6752F4168931CB /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B96C2363122555D21963DB695190DB05 /* PNPresenceWhereNowParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D8080E277992DA55A71BE22080621F8A /* PNPresenceWhereNowParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B982488C6139BB023FB6288A9862D743 /* PubNub+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D06D22CECC499127A65EE019E08C962 /* PubNub+Time.m */; };
+		B9BC75F84EA94F0705CD74A0AE2AC805 /* PNPresenceAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = C69D5F4D4F191E88997EBF2488CB248B /* PNPresenceAPICallBuilder.m */; };
+		BA827FA80883B26CF88AA963757BD644 /* PNURLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FF20167AB3532E5AA6499843E9A1F8 /* PNURLBuilder.m */; };
+		BBCCC339ABC3FC171418747A4947D892 /* PubNub+History.h in Headers */ = {isa = PBXBuildFile; fileRef = 227AC9F6EE7686881E2E569FFC0CB861 /* PubNub+History.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDC9C14B6CAE9AF83E6CBC754799C5B /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4F57EC07B7372520103F96A7AB3A0 /* Rainbow.swift */; };
+		C0071B2C1CC714C71C96F90C3733869E /* PNChannelGroupsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6256C3C0A27ACEBB1451CF7A29F6071D /* PNChannelGroupsResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09C8DB483B28D95837851E9B4A55174 /* PNLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A131DB6C3DAB80287D4BF79439C78233 /* PNLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C148D4CCA49B0390B10E76EFB8BB5AF6 /* NSURLSessionConfiguration+PNConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF926733C5B230F82F55D105111A93 /* NSURLSessionConfiguration+PNConfiguration.m */; };
+		C18424908FEEAD7F39641A8FBEA83068 /* Pods-ControlPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E3151AE6E8B464E932BD02801BF4D0 /* Pods-ControlPanel-dummy.m */; };
+		C2957BDD978AC63F22A5EFDC58A27D06 /* PubNub+State.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA28897BA86C4DAA9B3D4F0C14DA72 /* PubNub+State.m */; };
+		C34CECF51DFF502986BB21154BFB8A7A /* PubNub+History.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F23C52448DBF861DEE4CB3D60AF9DE /* PubNub+History.m */; };
+		C385EEA12BAA3D144EE5BE1F0397DE1A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D841180FB365BD87F96B35B1BEF203 /* SwiftyJSON.swift */; };
+		C56988F3358302796A0F7CF30C28870C /* PNServiceData+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1B004A6AAFF6ECABFE8B46B7115A05 /* PNServiceData+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C637272C2EB14CD104ABD483A6439AA6 /* NSURLSessionConfiguration+PNConfigurationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A7806556FA483A6A63B8EE83848954 /* NSURLSessionConfiguration+PNConfigurationPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C63F0F86DE4BF9FF43D902F338AA03D1 /* PNNetworkResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E977F9C99C1F4D26F4586B7C5B207F63 /* PNNetworkResponseSerializer.m */; };
+		C70352C1ABF0B2F9E164D5BFC29323AB /* PubNub+PresencePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1445266EE9365C1577C6FB25FC1B4E09 /* PubNub+PresencePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C891FDF4D6F1CEC9EFE53CDB34EE6BE5 /* PNPresenceChannelGroupHereNowAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F964E66EBEE8FDDB5D5A94F1A77F819 /* PNPresenceChannelGroupHereNowAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C89B3D6AA06BF67EA5EF342DEB98B9C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		C943D787EB95809E6C5B0D52CCC4DE24 /* PNPrivateStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = 116F5C628EFD3DBA258BD7A62E7351BA /* PNPrivateStructures.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C99141DDC15D9F9BE8D5F48FBE9901EA /* PNLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 687AC497CC15AEA88B76A0EC277EC9DF /* PNLLogger.m */; };
+		C9CEDE54E03C1AC13C71323E1E2CF7FC /* ProgressKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 711543CA2D6FC4B3723A9D515C989CD9 /* ProgressKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC85FED115FBDFF816E2185E564FA15 /* PNReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA1E07AAA09547260534C2AE52695C /* PNReachability.m */; };
+		CB675CAF8E0F6CAE98DE0CF72559DA4B /* PNSubscribeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CFB2C480D8BA064C092CCFB40B3E09 /* PNSubscribeParser.m */; };
+		CB91DFD3BC63E093AB1E128D90E9DF12 /* PNChannelClientStateResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 23644E6D553DCA3CE1DED6362653A72E /* PNChannelClientStateResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD4848BD833BBD2B65CFC3D451DBA1CA /* PNServiceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5084B02B6A079BE1F87DDE292CB25877 /* PNServiceData.m */; };
+		CD69FFC10381F60FE3F5CCD36583703D /* PNErrorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8026DE9E7C6F02B0CC1E344C2E9F5B7C /* PNErrorParser.m */; };
+		CDB4883AF559AB60F12659314018280D /* PubNub+ChannelGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 1710E92EDFBE4B5DF3F6C7CD302611C2 /* PubNub+ChannelGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA295B64BDE33E6796A7EF70F2998C0 /* PNArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0F6B0D8A529F6D6FD9E8A0D6912D0 /* PNArray.m */; };
+		CF9CA6671896EFF78CAFD73A4AC83927 /* PNPublishSizeAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 83710F5D0096C2B7587602A602CFC05A /* PNPublishSizeAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D134E7217729DBFBD8E62AD485B2554F /* PNPresenceChannelHereNowAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B498BB26843F9BE66CE7922F0D098E97 /* PNPresenceChannelHereNowAPICallBuilder.m */; };
+		D23A0377D997E834F59F39A4B613AC0E /* PNStatus+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 375285F33465F50F01645996668BED47 /* PNStatus+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D2689480CD8CC57219142F79991286DB /* PNJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA21C96E2475F0DE58F7082763167AE /* PNJSON.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D28EB7BAA52EA4C4B081E194CDF1039A /* PNChannelGroupModificationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 427836A3F4F876D276E7D0D9B4DA5918 /* PNChannelGroupModificationParser.m */; };
+		D2E7F5D62BA9569E15BA03C9B0094B2C /* PNSubscribeChannelsOrGroupsAPIBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9E7E487485323070EA292D281E0D55 /* PNSubscribeChannelsOrGroupsAPIBuilder.m */; };
+		D5E068EDD83C02CA162CF4DF9ACDE424 /* PNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4688E4AA746E22A1A01FD9792FC6B4F9 /* PNKeychain.m */; };
+		D66D04EFB8C8EA43AC9F16EA85CFF0B0 /* PNPresenceChannelHereNowResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 940A0101DFF4DA0005050C94A0C5C6DE /* PNPresenceChannelHereNowResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7585ABB6A5A5499E7F84BC85E25C476 /* PubNub+State.h in Headers */ = {isa = PBXBuildFile; fileRef = 90727B318F4DDA7E6908358408AA7726 /* PubNub+State.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D79F6B7887B64A2FFCD28DBD152E9CAF /* PNSubscribeAPIBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6591674A1319C69544A7E22A9849A9 /* PNSubscribeAPIBuilder.m */; };
+		D819E246C533AA07AE5DB5A065073F73 /* PNSubscribeStatus+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C23C316801C5D034F3CD4DA28C735CE7 /* PNSubscribeStatus+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D8CD7A821D4ED65335BF83337C1E9778 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		DA123795F4430E15FE899A0FA2C719DC /* PNChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = C72581F22D65A5CDA57F2D8EDE2E0579 /* PNChannel.m */; };
+		DA98BE65C935D3C76D382E33AA948AD9 /* PNStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8FC4618810BEAC9B5B15874382C355 /* PNStatus.m */; };
+		DBF34568301DEC52A1F032042D2FB507 /* PNAPNSEnabledChannelsResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 7525E0E8AB72FA1C985F237E5D51DE27 /* PNAPNSEnabledChannelsResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF96CE2D21FF75675F92565E567F93F /* PNSubscriberResults.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B991901AC3CDEB4B324CE46994D955 /* PNSubscriberResults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC28A7139CD99F770F6DB19D0E31E384 /* PNChannelGroupClientStateResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A12567BC8F415E276F396CF60C7DD4A /* PNChannelGroupClientStateResult.m */; };
+		DC94C52FCA5FCDA01E8CCF72360D86B3 /* PNLogMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B33215467BF13118071D6D257455D3 /* PNLogMacro.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DDF3474045D4260BB99593B32099158C /* PNGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A141547CB4BAFC613911C15A0EED1C8 /* PNGZIP.m */; };
+		DE217B2388D6C534A6FD0E64DDE242DB /* PNTimeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0723033EE6FE60A5E7FC7A8B85E46 /* PNTimeParser.m */; };
+		DF375B174951B0E23ABD35FBA16F84CA /* PNArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DF5A6CD5456A8AD05765842C615DD9 /* PNArray.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DF8E950A4198787A546369AF619A282D /* PubNub+APNS.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7A8445404B3CC2E16EB631B8D0DA9D /* PubNub+APNS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0EA40238177C8C2FEA71EBF4A58E497 /* PNURLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A99CF44DC82E396D7426F82AE6A67B62 /* PNURLBuilder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E11049033C0E834D699733D94128D23E /* Pods-ControlPanelTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FA63E84823A722158B14B5E241CF62 /* Pods-ControlPanelTests-dummy.m */; };
+		E19DD5754A885087771241B9EAD86B78 /* PNStateAuditAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CD94F27899227A2975FFAB7B81740C9B /* PNStateAuditAPICallBuilder.m */; };
+		E20CB7B8F2BA25454035333BC654CDF5 /* PNObjectEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1BA7B1BE4687DF3F35F586FAEF1EF4 /* PNObjectEventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2BBD1A3752B1E591802C6AF145C2EC8 /* PNPresenceChannelGroupHereNowResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BEB0EABA4530F1B12BA27C0DD95889 /* PNPresenceChannelGroupHereNowResult.m */; };
+		E4032EDA075817BF908EFC201306AD30 /* PNAPNSAuditAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7788561AA1755360A8BF19575BC02B55 /* PNAPNSAuditAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67ABDE29B5513D0DEEF738569035FEF /* PNStateAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 574D6DE9E827A8392683EAABABED7F8D /* PNStateAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6CE9BA5A4A25865B6D0585BC157259A /* PNPublishAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF382B37DFAB5D206992AA75EE566C5 /* PNPublishAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E862EEA56C76D9981BFB7AF5F2109993 /* PNNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D4195BEE3DC867E8DB5C4F915D08B2 /* PNNumber.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EE260C390D168C928F483307FC954FA1 /* PNPresenceHereNowAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C088B754AB81E5FF8BD6044C6C483 /* PNPresenceHereNowAPICallBuilder.m */; };
+		EE31EC3BC26DBC45E846BC762821441E /* PNServiceData.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C778FF4A896B1084BF62F720A8538E /* PNServiceData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEF3ECCDFE81726E3357F40658125DE5 /* PNClientStateUpdateStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 600ABD74B411509D8527EA8A85C00904 /* PNClientStateUpdateStatus.m */; };
+		EF8ED02B130AA7EBDE32222D9108FE69 /* PNErrorParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1CBB6A8A78082158E4577A68E5B951 /* PNErrorParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F009786D5946385EE1A9990955D0152E /* PNPresenceHereNowParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E76FDADF9855320CBE7336A083579E33 /* PNPresenceHereNowParser.m */; };
+		F00C2B513A3FA83612E930D78D99ACF4 /* PNHeartbeatParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA1D2C6406F380940F47D892B0B009A /* PNHeartbeatParser.m */; };
+		F058D2D2496EB4FC0A57826272C2D6CD /* PNErrorStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DBE96A493F1D03087B9C8C0E28192 /* PNErrorStatus.m */; };
+		F24B8503159D156810CB518A16381D75 /* ShootingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A937AC2669D0613C142B4B6647EC0E8 /* ShootingStars.swift */; };
+		F63B70B55F6D3DE1FFE46FF284B687E6 /* PubNub+ChannelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E7FA8E5D73134762F01DCC6690D2F6 /* PubNub+ChannelGroup.m */; };
+		F678C5A9F2CE0ECA2C20688A3770CFA0 /* PNConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E10F9845AE02C4D834F801FE6B0EA21E /* PNConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8019374FC47F86C343CC5E308492B7A /* PNClientStateParser.h in Headers */ = {isa = PBXBuildFile; fileRef = FE38E51B57052AFC9631A8493342C980 /* PNClientStateParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F8D96E9B62CDC6F4865CAFFF88AF140D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		FA3BBCD0380F26BFC228D840B6B3B564 /* PNAPNSAPICallBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D3F43361C7B3CD551C7D74B6686EFB /* PNAPNSAPICallBuilder.m */; };
+		FE9351498F7EB33E80B8B9BD12CC7FEF /* PNHistoryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 72651D467811131507719DFED98B6ABC /* PNHistoryParser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FEB3F7885BB0147AE8D9E5B1442DCB84 /* PNHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EAC22C05446FB8FC85CE18819903D8A /* PNHelpers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FEE9A4A3771E10C54C4383B8AB1FC958 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81750B6ED1F4525EB8AF88A49BB381E3 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEED9B67F5A89594D210EC9528138D3 /* PNPresenceHereNowAPICallBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E6CD3A80A607A4B7C74089F4125D85 /* PNPresenceHereNowAPICallBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D2A8FBDF8A393026A046F009A992A88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38167694E5D277A5487CAAE2C52E004;
+			remoteInfo = SwiftyJSON;
+		};
+		57E77C27AC292DD386F8A383878698F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAA9BA64CA73B8A37FCD98608B26386;
+			remoteInfo = ProgressKit;
+		};
+		C13D01ED2236B4F578187402540C56E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51EC2C7B61E17C99EE904483D5D34D3;
+			remoteInfo = PubNub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0041CA9FE47F1CE1E7E8B6123AF90E89 /* Pods-ControlPanelTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ControlPanelTests-frameworks.sh"; sourceTree = "<group>"; };
+		00C02304B8AA9EE3439B547FFB4BC2C5 /* PNPushNotificationsStateModificationParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPushNotificationsStateModificationParser.h; path = PubNub/Network/Parsers/PNPushNotificationsStateModificationParser.h; sourceTree = "<group>"; };
+		00D4195BEE3DC867E8DB5C4F915D08B2 /* PNNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNNumber.h; path = PubNub/Misc/Helpers/PNNumber.h; sourceTree = "<group>"; };
+		00DF5A6CD5456A8AD05765842C615DD9 /* PNArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNArray.h; path = PubNub/Misc/Helpers/PNArray.h; sourceTree = "<group>"; };
+		013BF6857B5428F3439AF9BEC8B5BAE6 /* PNAPNSEnabledChannelsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNAPNSEnabledChannelsResult.m; path = "PubNub/Data/Service Objects/PNAPNSEnabledChannelsResult.m"; sourceTree = "<group>"; };
+		01E410E928D6DFB76C3C3DDAA384514C /* PNErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNErrorCodes.h; path = PubNub/Misc/PNErrorCodes.h; sourceTree = "<group>"; };
+		032E40F6D11B5F4DDCADBB7444AC8DAF /* PNGZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNGZIP.h; path = PubNub/Misc/Helpers/PNGZIP.h; sourceTree = "<group>"; };
+		04954EFD9121B0008B10E7ED88774942 /* PNPresenceHereNowParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceHereNowParser.h; path = PubNub/Network/Parsers/PNPresenceHereNowParser.h; sourceTree = "<group>"; };
+		04F6B055747F9E30B94977AC1B9018C0 /* PNLeaveParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNLeaveParser.h; path = PubNub/Network/Parsers/PNLeaveParser.h; sourceTree = "<group>"; };
+		060B740659164CD224545B0406642BE6 /* PubNub.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PubNub.xcconfig; sourceTree = "<group>"; };
+		07C9992FFC479644B7DB0428447FFDF3 /* PNURLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNURLRequest.m; path = PubNub/Misc/Helpers/PNURLRequest.m; sourceTree = "<group>"; };
+		07CD79A0186D561B53386D46629DB449 /* Pods-ControlPanel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ControlPanel-acknowledgements.plist"; sourceTree = "<group>"; };
+		08A7381CC43A35E15854522AE1927C5E /* ProgressKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressKit-dummy.m"; sourceTree = "<group>"; };
+		0989D5D8AB5838D498E17C9BCDCAC32B /* PNPublishAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPublishAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Publish/PNPublishAPICallBuilder.m"; sourceTree = "<group>"; };
+		09B991901AC3CDEB4B324CE46994D955 /* PNSubscriberResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNSubscriberResults.h; path = "PubNub/Data/Service Objects/PNSubscriberResults.h"; sourceTree = "<group>"; };
+		0A14D420819B209519DBE3CB527E730F /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		0E3CE431A192AF874F9942411A77ADF3 /* PNDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNDictionary.m; path = PubNub/Misc/Helpers/PNDictionary.m; sourceTree = "<group>"; };
+		0ED1DD21A03E4ECE9630D4BE46890108 /* PNChannelGroupChannelsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNChannelGroupChannelsResult.h; path = "PubNub/Data/Service Objects/PNChannelGroupChannelsResult.h"; sourceTree = "<group>"; };
+		0F7FAC9CC5CF4698599C57DB813701FD /* PNString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNString.h; path = PubNub/Misc/Helpers/PNString.h; sourceTree = "<group>"; };
+		1092222B7C4A00DACF2A1E764005CC13 /* PubNub+Publish.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+Publish.m"; path = "PubNub/Core/PubNub+Publish.m"; sourceTree = "<group>"; };
+		116F5C628EFD3DBA258BD7A62E7351BA /* PNPrivateStructures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPrivateStructures.h; path = PubNub/Misc/PNPrivateStructures.h; sourceTree = "<group>"; };
+		120472799CE3F6B0B9E46B7227EDABBC /* PNPresenceGlobalHereNowResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceGlobalHereNowResult.m; path = "PubNub/Data/Service Objects/PNPresenceGlobalHereNowResult.m"; sourceTree = "<group>"; };
+		1302BBBF954B535B6F2A70D62FD2C702 /* Pods-ControlPanelUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ControlPanelUITests-frameworks.sh"; sourceTree = "<group>"; };
+		13489282E0D456FFCCFE9567C1A5F86D /* PNSubscriber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNSubscriber.h; path = PubNub/Data/Managers/PNSubscriber.h; sourceTree = "<group>"; };
+		13F23C52448DBF861DEE4CB3D60AF9DE /* PubNub+History.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+History.m"; path = "PubNub/Core/PubNub+History.m"; sourceTree = "<group>"; };
+		1445266EE9365C1577C6FB25FC1B4E09 /* PubNub+PresencePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+PresencePrivate.h"; path = "PubNub/Core/PubNub+PresencePrivate.h"; sourceTree = "<group>"; };
+		14D17423EF1D8FFD1A8C6F00FE6B0C46 /* PNNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNNumber.m; path = PubNub/Misc/Helpers/PNNumber.m; sourceTree = "<group>"; };
+		1710E92EDFBE4B5DF3F6C7CD302611C2 /* PubNub+ChannelGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+ChannelGroup.h"; path = "PubNub/Core/PubNub+ChannelGroup.h"; sourceTree = "<group>"; };
+		1777180F5DCEAAB4BC90AA9BAEB18230 /* PNPresenceChannelHereNowResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceChannelHereNowResult.m; path = "PubNub/Data/Service Objects/PNPresenceChannelHereNowResult.m"; sourceTree = "<group>"; };
+		183CDC43508581C4F7AE832F819898A5 /* PNEnvelopeInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNEnvelopeInformation.h; path = PubNub/Data/PNEnvelopeInformation.h; sourceTree = "<group>"; };
+		183D12B3E4898A496287FD487EBC3002 /* PNPresenceWhereNowResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceWhereNowResult.m; path = "PubNub/Data/Service Objects/PNPresenceWhereNowResult.m"; sourceTree = "<group>"; };
+		18A537201421C9D871C644168B7EA8A1 /* PNHeartbeatParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNHeartbeatParser.h; path = PubNub/Network/Parsers/PNHeartbeatParser.h; sourceTree = "<group>"; };
+		18CA28897BA86C4DAA9B3D4F0C14DA72 /* PubNub+State.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+State.m"; path = "PubNub/Core/PubNub+State.m"; sourceTree = "<group>"; };
+		1A219700399C8A6662C7A62967104731 /* Pods-ControlPanelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ControlPanelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BC5C078A4298E7DC5B3BEA7C34EE75E /* PNPushNotificationsAuditParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPushNotificationsAuditParser.m; path = PubNub/Network/Parsers/PNPushNotificationsAuditParser.m; sourceTree = "<group>"; };
+		1C26E86141C9FDC81250FD3E29721077 /* PNErrorStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNErrorStatus.h; path = "PubNub/Data/Service Objects/PNErrorStatus.h"; sourceTree = "<group>"; };
+		1E20C582535E7E6A3ED1A7DAEFD01B58 /* PNConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNConstants.h; path = PubNub/Misc/PNConstants.h; sourceTree = "<group>"; };
+		1E9C3CE6DF01B170F3E03CADD42BC42D /* PNAcknowledgmentStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNAcknowledgmentStatus.m; path = "PubNub/Data/Service Objects/PNAcknowledgmentStatus.m"; sourceTree = "<group>"; };
+		1F35B58893DD46F5D0CC61FAB1F8BC00 /* PubNub+Presence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+Presence.m"; path = "PubNub/Core/PubNub+Presence.m"; sourceTree = "<group>"; };
+		2245D5AF9DEF3E4FBE9A717DC7BB4B7C /* PNPublishSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPublishSequence.h; path = PubNub/Data/Managers/PNPublishSequence.h; sourceTree = "<group>"; };
+		227AC9F6EE7686881E2E569FFC0CB861 /* PubNub+History.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+History.h"; path = "PubNub/Core/PubNub+History.h"; sourceTree = "<group>"; };
+		23644E6D553DCA3CE1DED6362653A72E /* PNChannelClientStateResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNChannelClientStateResult.h; path = "PubNub/Data/Service Objects/PNChannelClientStateResult.h"; sourceTree = "<group>"; };
+		2535C5F357ED55248832955CE0A103B2 /* PNStreamAuditAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStreamAuditAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Stream/PNStreamAuditAPICallBuilder.h"; sourceTree = "<group>"; };
+		26096ECE23308DB831BC6FD0359F69AE /* PNReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNReachability.h; path = PubNub/Network/PNReachability.h; sourceTree = "<group>"; };
+		26DFE7F5CBEDD6DEA03C605F98AD9F48 /* PNLLogFileInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNLLogFileInformation.m; path = PubNub/Misc/Logger/Data/PNLLogFileInformation.m; sourceTree = "<group>"; };
+		26FCD4DE4729817451BF08465D983ACB /* Pods_ControlPanelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ControlPanelTests.framework; path = "Pods-ControlPanelTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		28C42ADD90E5A67ACC234838C0DAA859 /* PNMessagePublishParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNMessagePublishParser.m; path = PubNub/Network/Parsers/PNMessagePublishParser.m; sourceTree = "<group>"; };
+		29FF20167AB3532E5AA6499843E9A1F8 /* PNURLBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNURLBuilder.m; path = PubNub/Network/PNURLBuilder.m; sourceTree = "<group>"; };
+		2A12567BC8F415E276F396CF60C7DD4A /* PNChannelGroupClientStateResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNChannelGroupClientStateResult.m; path = "PubNub/Data/Service Objects/PNChannelGroupClientStateResult.m"; sourceTree = "<group>"; };
+		2BDF926733C5B230F82F55D105111A93 /* NSURLSessionConfiguration+PNConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSessionConfiguration+PNConfiguration.m"; path = "PubNub/Misc/Categories/NSURLSessionConfiguration+PNConfiguration.m"; sourceTree = "<group>"; };
+		2D356B5F73B0B3E664DD0CF29D51349F /* PNErrorStatus+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PNErrorStatus+Private.h"; path = "PubNub/Data/Service Objects/PNErrorStatus+Private.h"; sourceTree = "<group>"; };
+		2D6C088B754AB81E5FF8BD6044C6C483 /* PNPresenceHereNowAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceHereNowAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceHereNowAPICallBuilder.m"; sourceTree = "<group>"; };
+		305D3F7585CA0C3452277FE0C94CDB34 /* PubNub+Subscribe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+Subscribe.h"; path = "PubNub/Core/PubNub+Subscribe.h"; sourceTree = "<group>"; };
+		30E5E4452DBDB2683424AB7DA8F7689D /* Pods-ControlPanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ControlPanel.modulemap"; sourceTree = "<group>"; };
+		32E5496A5E3B33E2717E8D088FA11F9D /* PNKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNKeychain.h; path = PubNub/Data/PNKeychain.h; sourceTree = "<group>"; };
+		330EA5A5175B75271C43A38DCE0A5EA3 /* PNHistoryResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNHistoryResult.m; path = "PubNub/Data/Service Objects/PNHistoryResult.m"; sourceTree = "<group>"; };
+		33313CC78176CF6A96DCEE2C2DB5047C /* PNAPNSAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNAPNSAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/APNS/PNAPNSAPICallBuilder.h"; sourceTree = "<group>"; };
+		33CAD07EB80659B32C8FA7AC654A707C /* PNTimeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNTimeResult.h; path = "PubNub/Data/Service Objects/PNTimeResult.h"; sourceTree = "<group>"; };
+		34822AD249DB4739AC9E76562F4EE9A8 /* PNStateModificationAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStateModificationAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/State/PNStateModificationAPICallBuilder.h"; sourceTree = "<group>"; };
+		36BEB0EABA4530F1B12BA27C0DD95889 /* PNPresenceChannelGroupHereNowResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceChannelGroupHereNowResult.m; path = "PubNub/Data/Service Objects/PNPresenceChannelGroupHereNowResult.m"; sourceTree = "<group>"; };
+		36D12A77329785356348945CB6526FF3 /* PNPresenceWhereNowResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceWhereNowResult.h; path = "PubNub/Data/Service Objects/PNPresenceWhereNowResult.h"; sourceTree = "<group>"; };
+		375285F33465F50F01645996668BED47 /* PNStatus+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PNStatus+Private.h"; path = "PubNub/Data/Service Objects/PNStatus+Private.h"; sourceTree = "<group>"; };
+		397FEF4074E2B8A6BCB8E2FD9DDC0F9E /* PNChannelGroupsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNChannelGroupsResult.m; path = "PubNub/Data/Service Objects/PNChannelGroupsResult.m"; sourceTree = "<group>"; };
+		39C020EDD7819791815A50F33644BF96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AEDDF28BB0623129DC83A6B2FE94164 /* Pods_ControlPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ControlPanel.framework; path = "Pods-ControlPanel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7CC68A5420801E0BA812FF18D4F16A /* PNStreamModificationAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStreamModificationAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Stream/PNStreamModificationAPICallBuilder.h"; sourceTree = "<group>"; };
+		3EAC22C05446FB8FC85CE18819903D8A /* PNHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNHelpers.h; path = PubNub/Misc/Helpers/PNHelpers.h; sourceTree = "<group>"; };
+		3EF0F6B0D8A529F6D6FD9E8A0D6912D0 /* PNArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNArray.m; path = PubNub/Misc/Helpers/PNArray.m; sourceTree = "<group>"; };
+		3FCB708B88DFA7CD2E3EEFF5CAF5EA46 /* PNNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNNetwork.m; path = PubNub/Network/PNNetwork.m; sourceTree = "<group>"; };
+		404F35A5F7FCDFC14F05EDA7895A9EA2 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		427836A3F4F876D276E7D0D9B4DA5918 /* PNChannelGroupModificationParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNChannelGroupModificationParser.m; path = PubNub/Network/Parsers/PNChannelGroupModificationParser.m; sourceTree = "<group>"; };
+		4284488AC877F9AD0A5E92AAB8ED4B32 /* Pods-ControlPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ControlPanel.debug.xcconfig"; sourceTree = "<group>"; };
+		44F60C3C711B51708ABC75CEA1911216 /* PNURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNURLRequest.h; path = PubNub/Misc/Helpers/PNURLRequest.h; sourceTree = "<group>"; };
+		4581C78966509ADEFD9895DEEBCD4759 /* PNChannelGroupAuditionParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNChannelGroupAuditionParser.h; path = PubNub/Network/Parsers/PNChannelGroupAuditionParser.h; sourceTree = "<group>"; };
+		4688E4AA746E22A1A01FD9792FC6B4F9 /* PNKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNKeychain.m; path = PubNub/Data/PNKeychain.m; sourceTree = "<group>"; };
+		4812FF7C942B13E88856032432B82EEB /* PNHeartbeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNHeartbeat.m; path = PubNub/Data/Managers/PNHeartbeat.m; sourceTree = "<group>"; };
+		4A15FC2B639F77BF047AA081CB80837F /* Pods-ControlPanelUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ControlPanelUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AC4F57EC07B7372520103F96A7AB3A0 /* Rainbow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rainbow.swift; path = InDeterminate/Rainbow.swift; sourceTree = "<group>"; };
+		4AEA1E07AAA09547260534C2AE52695C /* PNReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNReachability.m; path = PubNub/Network/PNReachability.m; sourceTree = "<group>"; };
+		4BC8809A3867A8B93315F1A028E43810 /* PNStateAuditAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStateAuditAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/State/PNStateAuditAPICallBuilder.h"; sourceTree = "<group>"; };
+		4CE77788B595A5DF06A9EFC15B17494D /* Spinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spinner.swift; path = InDeterminate/Spinner.swift; sourceTree = "<group>"; };
+		4D97C39E583DE78F5069597D9F26D144 /* PNAPICallBuilder+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PNAPICallBuilder+Private.h"; path = "PubNub/Data/Builders/PNAPICallBuilder+Private.h"; sourceTree = "<group>"; };
+		4DA1D2C6406F380940F47D892B0B009A /* PNHeartbeatParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNHeartbeatParser.m; path = PubNub/Network/Parsers/PNHeartbeatParser.m; sourceTree = "<group>"; };
+		4ECEF21AB7018552E5DEF196C8DC5FEA /* PNStreamAuditAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNStreamAuditAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Stream/PNStreamAuditAPICallBuilder.m"; sourceTree = "<group>"; };
+		4FB1666676392D53BA3F9C4BD1C47F80 /* PNHistoryParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNHistoryParser.m; path = PubNub/Network/Parsers/PNHistoryParser.m; sourceTree = "<group>"; };
+		4FBC95CF63AB57A6899E2146F4DF77B3 /* PubNub+Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+Core.h"; path = "PubNub/Core/PubNub+Core.h"; sourceTree = "<group>"; };
+		5084B02B6A079BE1F87DDE292CB25877 /* PNServiceData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNServiceData.m; path = "PubNub/Data/Service Objects/PNServiceData.m"; sourceTree = "<group>"; };
+		51882DEFC1E5DE5B9C99E6FAED6CCE1D /* PNChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNChannel.h; path = PubNub/Misc/Helpers/PNChannel.h; sourceTree = "<group>"; };
+		52576F5F44A83C73BA692DB755984B5C /* ProgressKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressKit-prefix.pch"; sourceTree = "<group>"; };
+		54C8EFA7E6DA29910F8A2F84D9539BE7 /* PNPresenceAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceAPICallBuilder.h"; sourceTree = "<group>"; };
+		558F0C85267327A874E214C9F31E9021 /* Pods-ControlPanelUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ControlPanelUITests-resources.sh"; sourceTree = "<group>"; };
+		56E7FA8E5D73134762F01DCC6690D2F6 /* PubNub+ChannelGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+ChannelGroup.m"; path = "PubNub/Core/PubNub+ChannelGroup.m"; sourceTree = "<group>"; };
+		574D6DE9E827A8392683EAABABED7F8D /* PNStateAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStateAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/State/PNStateAPICallBuilder.h"; sourceTree = "<group>"; };
+		5A0426B14208B6E3A95CF2B8A4335D3F /* PNPublishStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPublishStatus.m; path = "PubNub/Data/Service Objects/PNPublishStatus.m"; sourceTree = "<group>"; };
+		5A0C050F1103285819D0AB224753FA1A /* RotatingArc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotatingArc.swift; path = InDeterminate/RotatingArc.swift; sourceTree = "<group>"; };
+		5B0096F0FF573F760CBDE04F4BC34D91 /* Pods-ControlPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ControlPanel.release.xcconfig"; sourceTree = "<group>"; };
+		5BF3F9EF1A74183C58961C948016F051 /* ProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressBar.swift; path = Determinate/ProgressBar.swift; sourceTree = "<group>"; };
+		600ABD74B411509D8527EA8A85C00904 /* PNClientStateUpdateStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNClientStateUpdateStatus.m; path = "PubNub/Data/Service Objects/PNClientStateUpdateStatus.m"; sourceTree = "<group>"; };
+		6256C3C0A27ACEBB1451CF7A29F6071D /* PNChannelGroupsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNChannelGroupsResult.h; path = "PubNub/Data/Service Objects/PNChannelGroupsResult.h"; sourceTree = "<group>"; };
+		632106995BE80642A08431E6DC403428 /* PNStreamAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStreamAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Stream/PNStreamAPICallBuilder.h"; sourceTree = "<group>"; };
+		63DEC6BB0D4421D99B95B9509B52F4F5 /* PubNub+Publish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+Publish.h"; path = "PubNub/Core/PubNub+Publish.h"; sourceTree = "<group>"; };
+		6661AEC55A0F1A8AB73EAC9876EEFDAF /* PNNetworkResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNNetworkResponseSerializer.h; path = PubNub/Network/PNNetworkResponseSerializer.h; sourceTree = "<group>"; };
+		67251A2017DA331217B70073A0A02FD8 /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNUnsubscribeChannelsOrGroupsAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Subscribe/PNUnsubscribeChannelsOrGroupsAPICallBuilder.m"; sourceTree = "<group>"; };
+		687AC497CC15AEA88B76A0EC277EC9DF /* PNLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNLLogger.m; path = PubNub/Misc/Logger/Core/PNLLogger.m; sourceTree = "<group>"; };
+		69E4916197C25F5C85AE92B347C1CCC5 /* Pods-ControlPanelUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ControlPanelUITests.modulemap"; sourceTree = "<group>"; };
+		6A141547CB4BAFC613911C15A0EED1C8 /* PNGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNGZIP.m; path = PubNub/Misc/Helpers/PNGZIP.m; sourceTree = "<group>"; };
+		6AE0723033EE6FE60A5E7FC7A8B85E46 /* PNTimeParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNTimeParser.m; path = PubNub/Network/Parsers/PNTimeParser.m; sourceTree = "<group>"; };
+		6BDD75A4C055AA0ABBFE7DA723EC8494 /* PNStateListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNStateListener.m; path = PubNub/Data/Managers/PNStateListener.m; sourceTree = "<group>"; };
+		6D06D22CECC499127A65EE019E08C962 /* PubNub+Time.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+Time.m"; path = "PubNub/Core/PubNub+Time.m"; sourceTree = "<group>"; };
+		6EE1230034361745C520EAB63A1EB20E /* PNHeartbeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNHeartbeat.h; path = PubNub/Data/Managers/PNHeartbeat.h; sourceTree = "<group>"; };
+		6F964E66EBEE8FDDB5D5A94F1A77F819 /* PNPresenceChannelGroupHereNowAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceChannelGroupHereNowAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceChannelGroupHereNowAPICallBuilder.h"; sourceTree = "<group>"; };
+		711543CA2D6FC4B3723A9D515C989CD9 /* ProgressKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressKit-umbrella.h"; sourceTree = "<group>"; };
+		72651D467811131507719DFED98B6ABC /* PNHistoryParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNHistoryParser.h; path = PubNub/Network/Parsers/PNHistoryParser.h; sourceTree = "<group>"; };
+		729F579401D5E2DDAD77D82A23278F8C /* PNParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNParser.h; path = PubNub/Misc/Protocols/PNParser.h; sourceTree = "<group>"; };
+		7477E552C577C035BACC8B6C2E077F3D /* PubNub-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PubNub-prefix.pch"; sourceTree = "<group>"; };
+		75174C34F856216D54D6ED8336A891EA /* PNClientInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNClientInformation.h; path = PubNub/Data/PNClientInformation.h; sourceTree = "<group>"; };
+		7525E0E8AB72FA1C985F237E5D51DE27 /* PNAPNSEnabledChannelsResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNAPNSEnabledChannelsResult.h; path = "PubNub/Data/Service Objects/PNAPNSEnabledChannelsResult.h"; sourceTree = "<group>"; };
+		76A4967C123D36C1C584839028BB2E57 /* PNUnsubscribeAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNUnsubscribeAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Subscribe/PNUnsubscribeAPICallBuilder.m"; sourceTree = "<group>"; };
+		76E6EC5E3CDD6EC759DB62239C26D65E /* PNHistoryAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNHistoryAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/History/PNHistoryAPICallBuilder.h"; sourceTree = "<group>"; };
+		7788561AA1755360A8BF19575BC02B55 /* PNAPNSAuditAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNAPNSAuditAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/APNS/PNAPNSAuditAPICallBuilder.h"; sourceTree = "<group>"; };
+		778F349B861AE559E2541C42A0354D43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7886C05012580469A5F89C733DED8769 /* CircularProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularProgressView.swift; path = Determinate/CircularProgressView.swift; sourceTree = "<group>"; };
+		79346F27F4232A4EFDF8ABFFC5230817 /* Pods-ControlPanel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ControlPanel-resources.sh"; sourceTree = "<group>"; };
+		7A937AC2669D0613C142B4B6647EC0E8 /* ShootingStars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShootingStars.swift; path = InDeterminate/ShootingStars.swift; sourceTree = "<group>"; };
+		7B4BCBD53203231F01A207CF82C0F331 /* PubNub+Subscribe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+Subscribe.m"; path = "PubNub/Core/PubNub+Subscribe.m"; sourceTree = "<group>"; };
+		7CE19BBA8081384D9693ED1338BEFFB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E20A1A562FE99D99E0D2D05DE683E1E /* Pods-ControlPanelTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ControlPanelTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8026DE9E7C6F02B0CC1E344C2E9F5B7C /* PNErrorParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNErrorParser.m; path = PubNub/Network/Parsers/PNErrorParser.m; sourceTree = "<group>"; };
+		81750B6ED1F4525EB8AF88A49BB381E3 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		83710F5D0096C2B7587602A602CFC05A /* PNPublishSizeAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPublishSizeAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Publish/PNPublishSizeAPICallBuilder.h"; sourceTree = "<group>"; };
+		83C55842AA14028A9D7CE5D8E633628D /* Pods-ControlPanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ControlPanel-umbrella.h"; sourceTree = "<group>"; };
+		83E3151AE6E8B464E932BD02801BF4D0 /* Pods-ControlPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ControlPanel-dummy.m"; sourceTree = "<group>"; };
+		84A7806556FA483A6A63B8EE83848954 /* NSURLSessionConfiguration+PNConfigurationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSessionConfiguration+PNConfigurationPrivate.h"; path = "PubNub/Misc/Categories/NSURLSessionConfiguration+PNConfigurationPrivate.h"; sourceTree = "<group>"; };
+		850FBB0BD95B1AA15755BEB85FBD829F /* PNChannelGroupClientStateResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNChannelGroupClientStateResult.h; path = "PubNub/Data/Service Objects/PNChannelGroupClientStateResult.h"; sourceTree = "<group>"; };
+		879443760C7C9AA8DFDDA90BA7EE66C2 /* PNPresenceChannelHereNowAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceChannelHereNowAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceChannelHereNowAPICallBuilder.h"; sourceTree = "<group>"; };
+		89595AD28F5D03D36E231DDF9D049CA3 /* PNAPNSModificationAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNAPNSModificationAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/APNS/PNAPNSModificationAPICallBuilder.m"; sourceTree = "<group>"; };
+		8D1BA7B1BE4687DF3F35F586FAEF1EF4 /* PNObjectEventListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNObjectEventListener.h; path = PubNub/Misc/Protocols/PNObjectEventListener.h; sourceTree = "<group>"; };
+		8DC13525D0209CFFB9E7C07728EBE7DD /* PNChannelGroupChannelsResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNChannelGroupChannelsResult.m; path = "PubNub/Data/Service Objects/PNChannelGroupChannelsResult.m"; sourceTree = "<group>"; };
+		8E4FC067DD574412EAB5E435C02161F9 /* PubNub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PubNub-dummy.m"; sourceTree = "<group>"; };
+		906589ADD17F881EFC4C60E6878C4964 /* Pods-ControlPanel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ControlPanel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90727B318F4DDA7E6908358408AA7726 /* PubNub+State.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+State.h"; path = "PubNub/Core/PubNub+State.h"; sourceTree = "<group>"; };
+		91C5159553DFA02A71B15C0E78373E19 /* PNStateListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStateListener.h; path = PubNub/Data/Managers/PNStateListener.h; sourceTree = "<group>"; };
+		92FDA4FD1FFFD4B767645FA860365E5B /* PNChannelClientStateResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNChannelClientStateResult.m; path = "PubNub/Data/Service Objects/PNChannelClientStateResult.m"; sourceTree = "<group>"; };
+		93612183D2DEBA60F0FE566C362FFE71 /* PNTimeParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNTimeParser.h; path = PubNub/Network/Parsers/PNTimeParser.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940A0101DFF4DA0005050C94A0C5C6DE /* PNPresenceChannelHereNowResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceChannelHereNowResult.h; path = "PubNub/Data/Service Objects/PNPresenceChannelHereNowResult.h"; sourceTree = "<group>"; };
+		949EDB0974343AB1DF5A47D68B1BEE8B /* PNChannelGroupModificationParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNChannelGroupModificationParser.h; path = PubNub/Network/Parsers/PNChannelGroupModificationParser.h; sourceTree = "<group>"; };
+		94CFB176EE994C247F2D588E26E47E47 /* PNJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNJSON.m; path = PubNub/Misc/Helpers/PNJSON.m; sourceTree = "<group>"; };
+		95703F53B36A13272581648E077BE829 /* PubNub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PubNub.framework; path = PubNub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FF6CD22AE49A63CB0C3B69DA7E5340 /* PNRequestParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNRequestParameters.h; path = PubNub/Network/PNRequestParameters.h; sourceTree = "<group>"; };
+		963CC38C17D46C147ED1179F51AC0B7E /* PNPresenceChannelGroupHereNowAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceChannelGroupHereNowAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceChannelGroupHereNowAPICallBuilder.m"; sourceTree = "<group>"; };
+		982394E6F48D86314CA6F6B90CEB8381 /* DeterminateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeterminateAnimation.swift; path = Determinate/DeterminateAnimation.swift; sourceTree = "<group>"; };
+		98B33215467BF13118071D6D257455D3 /* PNLogMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNLogMacro.h; path = PubNub/Misc/Logger/PNLogMacro.h; sourceTree = "<group>"; };
+		98CAB06AF673A69CC920C540882DAAB2 /* PNConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNConfiguration.m; path = PubNub/Data/PNConfiguration.m; sourceTree = "<group>"; };
+		995D6BE465B68CA379D5E15EACEDF036 /* PNLeaveParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNLeaveParser.m; path = PubNub/Network/Parsers/PNLeaveParser.m; sourceTree = "<group>"; };
+		9AE4E769DCE9C69F9DB4FABD511AB18F /* PubNub+APNS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+APNS.m"; path = "PubNub/Core/PubNub+APNS.m"; sourceTree = "<group>"; };
+		9B4DBE96A493F1D03087B9C8C0E28192 /* PNErrorStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNErrorStatus.m; path = "PubNub/Data/Service Objects/PNErrorStatus.m"; sourceTree = "<group>"; };
+		9B75D794B4F88FACBF8B968FFDE8B48E /* PubNub+Time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+Time.h"; path = "PubNub/Core/PubNub+Time.h"; sourceTree = "<group>"; };
+		9DF6FD6880838C1C62D3A088EA4A0D11 /* NSURLSessionConfiguration+PNConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSessionConfiguration+PNConfiguration.h"; path = "PubNub/Misc/Categories/NSURLSessionConfiguration+PNConfiguration.h"; sourceTree = "<group>"; };
+		9EF382B37DFAB5D206992AA75EE566C5 /* PNPublishAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPublishAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Publish/PNPublishAPICallBuilder.h"; sourceTree = "<group>"; };
+		9FF24A6962855CDE1D1299A141127F79 /* PubNub+Core.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PubNub+Core.m"; path = "PubNub/Core/PubNub+Core.m"; sourceTree = "<group>"; };
+		A0A5F9149E256783CA2EB7ABBF2552A2 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		A0F16908F1C7B55DD099209B62674CA4 /* PNTimeAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNTimeAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Time/PNTimeAPICallBuilder.h"; sourceTree = "<group>"; };
+		A131DB6C3DAB80287D4BF79439C78233 /* PNLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNLLogger.h; path = PubNub/Misc/Logger/Core/PNLLogger.h; sourceTree = "<group>"; };
+		A22D346E3EC315295F28EE88D9197C33 /* PNData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNData.m; path = PubNub/Misc/Helpers/PNData.m; sourceTree = "<group>"; };
+		A714E8339C5FE8CCB387C56E13C4AB5A /* PubNub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PubNub-umbrella.h"; sourceTree = "<group>"; };
+		A83706200E0A591AFD589D315663CE43 /* IndeterminateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndeterminateAnimation.swift; path = InDeterminate/IndeterminateAnimation.swift; sourceTree = "<group>"; };
+		A86D7434D4577D42955ADDF7227B556B /* PNAPNSAuditAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNAPNSAuditAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/APNS/PNAPNSAuditAPICallBuilder.m"; sourceTree = "<group>"; };
+		A8FDB6CD66E87D8988824E2AF2D94FD8 /* PNPublishSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPublishSequence.m; path = PubNub/Data/Managers/PNPublishSequence.m; sourceTree = "<group>"; };
+		A96D2ED2F3B02291FCCAC80FFA76C055 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99CF44DC82E396D7426F82AE6A67B62 /* PNURLBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNURLBuilder.h; path = PubNub/Network/PNURLBuilder.h; sourceTree = "<group>"; };
+		AA126BD31984CA9816320D6829E1AE6D /* PNNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNNetwork.h; path = PubNub/Network/PNNetwork.h; sourceTree = "<group>"; };
+		AAD256EAC411C74761FD7483A8503254 /* PNSubscribeAPIBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNSubscribeAPIBuilder.h; path = "PubNub/Data/Builders/API Call/Subscribe/PNSubscribeAPIBuilder.h"; sourceTree = "<group>"; };
+		AD8047F9C85D195E25FEF054EDA3FDFC /* PNRequestParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNRequestParameters.m; path = PubNub/Network/PNRequestParameters.m; sourceTree = "<group>"; };
+		AE8FC4618810BEAC9B5B15874382C355 /* PNStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNStatus.m; path = "PubNub/Data/Service Objects/PNStatus.m"; sourceTree = "<group>"; };
+		AECC9919BDCBF536D95B0CB745851180 /* PNHistoryAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNHistoryAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/History/PNHistoryAPICallBuilder.m"; sourceTree = "<group>"; };
+		AFBC8BB8998EC875B450B4314814F3EB /* PNResult+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PNResult+Private.h"; path = "PubNub/Data/Service Objects/PNResult+Private.h"; sourceTree = "<group>"; };
+		B0A6118F73D8D76A96E9B67C44719A92 /* PNPresenceWhereNowAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceWhereNowAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceWhereNowAPICallBuilder.h"; sourceTree = "<group>"; };
+		B1053C6D38BD3DC1D575634D2A1738D9 /* PNAPNSModificationAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNAPNSModificationAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/APNS/PNAPNSModificationAPICallBuilder.h"; sourceTree = "<group>"; };
+		B19F852DE4C1883A040980FAF4CCCEFB /* ProgressKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressKit.framework; path = ProgressKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B498BB26843F9BE66CE7922F0D098E97 /* PNPresenceChannelHereNowAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceChannelHereNowAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceChannelHereNowAPICallBuilder.m"; sourceTree = "<group>"; };
+		B6D3B7248266E932D9F1B46B9F3131FF /* PNClientStateUpdateStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNClientStateUpdateStatus.h; path = "PubNub/Data/Service Objects/PNClientStateUpdateStatus.h"; sourceTree = "<group>"; };
+		B897118317376074B028A1ED2FB1CEE3 /* PNHistoryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNHistoryResult.h; path = "PubNub/Data/Service Objects/PNHistoryResult.h"; sourceTree = "<group>"; };
+		B93E17AD12BF3055164281A7F0F499C6 /* PNPushNotificationsStateModificationParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPushNotificationsStateModificationParser.m; path = PubNub/Network/Parsers/PNPushNotificationsStateModificationParser.m; sourceTree = "<group>"; };
+		B99E888DE7138D131F25B214D34A0025 /* PNAES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNAES.m; path = PubNub/Data/PNAES.m; sourceTree = "<group>"; };
+		BBA4D54BC27AA635595699338BAAF6D2 /* MaterialProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialProgress.swift; path = InDeterminate/MaterialProgress.swift; sourceTree = "<group>"; };
+		BC11E6586F14123C0DA396FB41C2F205 /* PNSubscribeStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNSubscribeStatus.m; path = "PubNub/Data/Service Objects/PNSubscribeStatus.m"; sourceTree = "<group>"; };
+		BC3E9CC474D4C2F2C1942E15926B83A0 /* ProgressUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressUtils.swift; sourceTree = "<group>"; };
+		BD1CBB6A8A78082158E4577A68E5B951 /* PNErrorParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNErrorParser.h; path = PubNub/Network/Parsers/PNErrorParser.h; sourceTree = "<group>"; };
+		BDE66DF1935A4E5705398C9C77F527CD /* PNMessagePublishParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNMessagePublishParser.h; path = PubNub/Network/Parsers/PNMessagePublishParser.h; sourceTree = "<group>"; };
+		BEF5D70799AC6B458C6374F55A3B343A /* Pods-ControlPanelUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ControlPanelUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C03E372C260F90FE3615BAFA58A42C27 /* BaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		C0863FD5C13078F0D8AB1AF1CFC8B6D6 /* PNAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNAPICallBuilder.m; path = PubNub/Data/Builders/PNAPICallBuilder.m; sourceTree = "<group>"; };
+		C0D56E1185C513110EE39D7C049E0DBF /* PNTimeAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNTimeAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Time/PNTimeAPICallBuilder.m"; sourceTree = "<group>"; };
+		C0FA63E84823A722158B14B5E241CF62 /* Pods-ControlPanelTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ControlPanelTests-dummy.m"; sourceTree = "<group>"; };
+		C1AD7486F40657A50F00C48A51D50726 /* PNSubscribeParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNSubscribeParser.h; path = PubNub/Network/Parsers/PNSubscribeParser.h; sourceTree = "<group>"; };
+		C23C316801C5D034F3CD4DA28C735CE7 /* PNSubscribeStatus+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PNSubscribeStatus+Private.h"; path = "PubNub/Data/Service Objects/PNSubscribeStatus+Private.h"; sourceTree = "<group>"; };
+		C2CBCD87BCD030A5671142A1B260E250 /* PNAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNAPICallBuilder.h; path = PubNub/Data/Builders/PNAPICallBuilder.h; sourceTree = "<group>"; };
+		C4165B9241844AB04D66BDA049C0C174 /* PubNub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PubNub.modulemap; sourceTree = "<group>"; };
+		C58EEBA38FC0B7A1B1433D541AD964A6 /* PNEnvelopeInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNEnvelopeInformation.m; path = PubNub/Data/PNEnvelopeInformation.m; sourceTree = "<group>"; };
+		C60E7617E10CDC89D08E939AFBD0618C /* PNPresenceChannelGroupHereNowResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceChannelGroupHereNowResult.h; path = "PubNub/Data/Service Objects/PNPresenceChannelGroupHereNowResult.h"; sourceTree = "<group>"; };
+		C69D5F4D4F191E88997EBF2488CB248B /* PNPresenceAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceAPICallBuilder.m"; sourceTree = "<group>"; };
+		C701C446C719B85D7E77EEBA73ACD328 /* Pods-ControlPanelUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ControlPanelUITests-dummy.m"; sourceTree = "<group>"; };
+		C72581F22D65A5CDA57F2D8EDE2E0579 /* PNChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNChannel.m; path = PubNub/Misc/Helpers/PNChannel.m; sourceTree = "<group>"; };
+		C763ED44AE490F523B6648447CEA1EFC /* PNAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNAES.h; path = PubNub/Data/PNAES.h; sourceTree = "<group>"; };
+		C7F4989CF05FED45961127E190BB287C /* ProgressKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ProgressKit.modulemap; sourceTree = "<group>"; };
+		C8C778FF4A896B1084BF62F720A8538E /* PNServiceData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNServiceData.h; path = "PubNub/Data/Service Objects/PNServiceData.h"; sourceTree = "<group>"; };
+		C9100AA13942BCC9B21631AA34CA3FF2 /* PNSubscribeChannelsOrGroupsAPIBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNSubscribeChannelsOrGroupsAPIBuilder.h; path = "PubNub/Data/Builders/API Call/Subscribe/PNSubscribeChannelsOrGroupsAPIBuilder.h"; sourceTree = "<group>"; };
+		C9F394D82779D093377F22AC21942AC4 /* PubNub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PubNub.h; path = PubNub/PubNub.h; sourceTree = "<group>"; };
+		CB7FFFF2E463720880CD36CEEF601805 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		CC746E2E1E4D63879F226D6BFBAAB0A5 /* Pods-ControlPanelTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ControlPanelTests-resources.sh"; sourceTree = "<group>"; };
+		CD94F27899227A2975FFAB7B81740C9B /* PNStateAuditAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNStateAuditAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/State/PNStateAuditAPICallBuilder.m"; sourceTree = "<group>"; };
+		CE6CB990C404AAC0D0AA48FFB53E0EEC /* Pods_ControlPanelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ControlPanelUITests.framework; path = "Pods-ControlPanelUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DB0AC91E2029B7C26657F2D7F99AC4 /* PNUnsubscribeAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNUnsubscribeAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Subscribe/PNUnsubscribeAPICallBuilder.h"; sourceTree = "<group>"; };
+		D204A7BCD0305C9EEA0739AEBAA40055 /* PNStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStatus.h; path = "PubNub/Data/Service Objects/PNStatus.h"; sourceTree = "<group>"; };
+		D2E1EA16F3A59114ED99B04AFCA4DB43 /* PNStructures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNStructures.h; path = PubNub/Misc/PNStructures.h; sourceTree = "<group>"; };
+		D393F6F4D3A04D15E49BA833A834004B /* PNResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNResult.m; path = "PubNub/Data/Service Objects/PNResult.m"; sourceTree = "<group>"; };
+		D64CE263B6D97B1E137DE75122F4D1CB /* Pods-ControlPanelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ControlPanelTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6FADD4EFFE3E5CB3CAFECAD36B7D814 /* Pods-ControlPanelUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ControlPanelUITests-umbrella.h"; sourceTree = "<group>"; };
+		D729B25C7747A7910B6752F4168931CB /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNUnsubscribeChannelsOrGroupsAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Subscribe/PNUnsubscribeChannelsOrGroupsAPICallBuilder.h"; sourceTree = "<group>"; };
+		D7E6CD3A80A607A4B7C74089F4125D85 /* PNPresenceHereNowAPICallBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceHereNowAPICallBuilder.h; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceHereNowAPICallBuilder.h"; sourceTree = "<group>"; };
+		D8080E277992DA55A71BE22080621F8A /* PNPresenceWhereNowParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceWhereNowParser.h; path = PubNub/Network/Parsers/PNPresenceWhereNowParser.h; sourceTree = "<group>"; };
+		D828792ADB17CA7AE1004833476F080B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CA4328B10FB59F44A8EAF0F3DF9BE8 /* PNString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNString.m; path = PubNub/Misc/Helpers/PNString.m; sourceTree = "<group>"; };
+		DB44FB4EA1B1AB3283575D35BAF6199C /* PNClientInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNClientInformation.m; path = PubNub/Data/PNClientInformation.m; sourceTree = "<group>"; };
+		DB94D5C37E50F1388B1B115992F8433C /* PNStateAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNStateAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/State/PNStateAPICallBuilder.m"; sourceTree = "<group>"; };
+		DB9E7E487485323070EA292D281E0D55 /* PNSubscribeChannelsOrGroupsAPIBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNSubscribeChannelsOrGroupsAPIBuilder.m; path = "PubNub/Data/Builders/API Call/Subscribe/PNSubscribeChannelsOrGroupsAPIBuilder.m"; sourceTree = "<group>"; };
+		DBCB7AC619A6A3E6132EE9034105AFC2 /* PNSubscriberResults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNSubscriberResults.m; path = "PubNub/Data/Service Objects/PNSubscriberResults.m"; sourceTree = "<group>"; };
+		DC871E0B4DD124BF324602752C445962 /* Pods-ControlPanelTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ControlPanelTests-umbrella.h"; sourceTree = "<group>"; };
+		DCAD4EAB18DA504D762D429653BAAF20 /* PNStreamModificationAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNStreamModificationAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Stream/PNStreamModificationAPICallBuilder.m"; sourceTree = "<group>"; };
+		DDB88409E86449E8FF486EBB1B3018DE /* PNData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNData.h; path = PubNub/Misc/Helpers/PNData.h; sourceTree = "<group>"; };
+		DEAC40D80B58A0AFB811C0BDDE8C4A68 /* PubNub+Presence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+Presence.h"; path = "PubNub/Core/PubNub+Presence.h"; sourceTree = "<group>"; };
+		E0335766CEE743A4F62444E1F3E99B63 /* ProgressKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressKit.xcconfig; sourceTree = "<group>"; };
+		E10F9845AE02C4D834F801FE6B0EA21E /* PNConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNConfiguration.h; path = PubNub/Data/PNConfiguration.h; sourceTree = "<group>"; };
+		E1C47B7336D6771321CF224893EF545C /* Pods-ControlPanelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ControlPanelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2800E4ECCF90707AC5B132E24C05967 /* PNLLogFileInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNLLogFileInformation.h; path = PubNub/Misc/Logger/Data/PNLLogFileInformation.h; sourceTree = "<group>"; };
+		E36E9EE9877CCCAEC7FBF6B527C0B958 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D9AD830C1F32B88D9311F6FDA8AC69 /* PNStateModificationAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNStateModificationAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/State/PNStateModificationAPICallBuilder.m"; sourceTree = "<group>"; };
+		E634C794A4BB7DAB8C58589F594C78E2 /* PNStreamAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNStreamAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Stream/PNStreamAPICallBuilder.m"; sourceTree = "<group>"; };
+		E6543A0074496914BAB28FF60CA1793E /* PNClientStateParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNClientStateParser.m; path = PubNub/Network/Parsers/PNClientStateParser.m; sourceTree = "<group>"; };
+		E6D3F43361C7B3CD551C7D74B6686EFB /* PNAPNSAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNAPNSAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/APNS/PNAPNSAPICallBuilder.m"; sourceTree = "<group>"; };
+		E76FDADF9855320CBE7336A083579E33 /* PNPresenceHereNowParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceHereNowParser.m; path = PubNub/Network/Parsers/PNPresenceHereNowParser.m; sourceTree = "<group>"; };
+		E813DC555ED0D6C8939B862979C75299 /* PNAcknowledgmentStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNAcknowledgmentStatus.h; path = "PubNub/Data/Service Objects/PNAcknowledgmentStatus.h"; sourceTree = "<group>"; };
+		E86C4445CC84DA7D6E5F906E2BBB1C03 /* Pods-ControlPanel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ControlPanel-frameworks.sh"; sourceTree = "<group>"; };
+		E977F9C99C1F4D26F4586B7C5B207F63 /* PNNetworkResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNNetworkResponseSerializer.m; path = PubNub/Network/PNNetworkResponseSerializer.m; sourceTree = "<group>"; };
+		EA6C63378AC18CCB3762AED889CFACDB /* PNPresenceWhereNowAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceWhereNowAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Presence/PNPresenceWhereNowAPICallBuilder.m"; sourceTree = "<group>"; };
+		EA795A512E288912894B071B336A566F /* PNSubscriber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNSubscriber.m; path = PubNub/Data/Managers/PNSubscriber.m; sourceTree = "<group>"; };
+		EC1B004A6AAFF6ECABFE8B46B7115A05 /* PNServiceData+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PNServiceData+Private.h"; path = "PubNub/Data/Service Objects/PNServiceData+Private.h"; sourceTree = "<group>"; };
+		EE5FF6ED95C65CBCFB1761AA4E78AB00 /* PNChannelGroupAuditionParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNChannelGroupAuditionParser.m; path = PubNub/Network/Parsers/PNChannelGroupAuditionParser.m; sourceTree = "<group>"; };
+		EF2BECC063E54D55776680F51894F3C5 /* PubNub+SubscribePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+SubscribePrivate.h"; path = "PubNub/Core/PubNub+SubscribePrivate.h"; sourceTree = "<group>"; };
+		EF351F342906FBBFA709ECA60A8FCB40 /* Pods-ControlPanelTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ControlPanelTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFA75242F777B6C82FF7795C7FBF04BF /* PNPresenceGlobalHereNowResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPresenceGlobalHereNowResult.h; path = "PubNub/Data/Service Objects/PNPresenceGlobalHereNowResult.h"; sourceTree = "<group>"; };
+		F0CE87F405C95EC87DFC9BFB63CDD0C2 /* PNPushNotificationsAuditParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPushNotificationsAuditParser.h; path = PubNub/Network/Parsers/PNPushNotificationsAuditParser.h; sourceTree = "<group>"; };
+		F34A62804CC4B92EAA93817E7A471F48 /* Crawler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crawler.swift; path = InDeterminate/Crawler.swift; sourceTree = "<group>"; };
+		F3A9DCCFAAD3B3A323B6AE1EE821A419 /* PubNub+CorePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+CorePrivate.h"; path = "PubNub/Core/PubNub+CorePrivate.h"; sourceTree = "<group>"; };
+		F43D6F872DD0F5CDAB62D682E82CE005 /* PNDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNDictionary.h; path = PubNub/Misc/Helpers/PNDictionary.h; sourceTree = "<group>"; };
+		F5666E1DBF06389D35E5A907751A908C /* PNClientState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNClientState.h; path = PubNub/Data/Managers/PNClientState.h; sourceTree = "<group>"; };
+		F604E6E23AAC974E07E9E54A6807CDDE /* Pods-ControlPanelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ControlPanelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F698AC4A187C02AE455949F4E802635C /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		F6D841180FB365BD87F96B35B1BEF203 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		F7605AB699CF4DEFA07F345D51B95FC6 /* PNSubscribeStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNSubscribeStatus.h; path = "PubNub/Data/Service Objects/PNSubscribeStatus.h"; sourceTree = "<group>"; };
+		F7CFB2C480D8BA064C092CCFB40B3E09 /* PNSubscribeParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNSubscribeParser.m; path = PubNub/Network/Parsers/PNSubscribeParser.m; sourceTree = "<group>"; };
+		F9DF0C19A51264B855F4C919B8738588 /* Pods-ControlPanelTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ControlPanelTests.modulemap"; sourceTree = "<group>"; };
+		FB7A8445404B3CC2E16EB631B8D0DA9D /* PubNub+APNS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PubNub+APNS.h"; path = "PubNub/Core/PubNub+APNS.h"; sourceTree = "<group>"; };
+		FBA21C96E2475F0DE58F7082763167AE /* PNJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNJSON.h; path = PubNub/Misc/Helpers/PNJSON.h; sourceTree = "<group>"; };
+		FBCA3F76BB0C9D9D008E67CB5A270B77 /* PNTimeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNTimeResult.m; path = "PubNub/Data/Service Objects/PNTimeResult.m"; sourceTree = "<group>"; };
+		FC6A478986465705ABD206BB17A8DF0A /* PNPresenceWhereNowParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPresenceWhereNowParser.m; path = PubNub/Network/Parsers/PNPresenceWhereNowParser.m; sourceTree = "<group>"; };
+		FCA7E491B20851A247ED149C02189C10 /* PNPublishStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNPublishStatus.h; path = "PubNub/Data/Service Objects/PNPublishStatus.h"; sourceTree = "<group>"; };
+		FCDB3C7AAD98025D2389F4064286EE5E /* PNPublishSizeAPICallBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNPublishSizeAPICallBuilder.m; path = "PubNub/Data/Builders/API Call/Publish/PNPublishSizeAPICallBuilder.m"; sourceTree = "<group>"; };
+		FE38E51B57052AFC9631A8493342C980 /* PNClientStateParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNClientStateParser.h; path = PubNub/Network/Parsers/PNClientStateParser.h; sourceTree = "<group>"; };
+		FE9E43DFF998C115B6F0984F1BF24875 /* PNClientState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNClientState.m; path = PubNub/Data/Managers/PNClientState.m; sourceTree = "<group>"; };
+		FEF5EB6C6438BD36128360B3ADAA2FAF /* PNResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PNResult.h; path = "PubNub/Data/Service Objects/PNResult.h"; sourceTree = "<group>"; };
+		FF6591674A1319C69544A7E22A9849A9 /* PNSubscribeAPIBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PNSubscribeAPIBuilder.m; path = "PubNub/Data/Builders/API Call/Subscribe/PNSubscribeAPIBuilder.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01CDB03A0D00EC1309BD618E4C7877B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89B3D6AA06BF67EA5EF342DEB98B9C2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221D55D70809ACCCF9597141767F078D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0726EA85D90A7E3710757F71B497DA33 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5998121F806030F1B979C4EB9CF7940D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109090DCF717B13DA4570CFF3E7C6219 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C23864DFCF38DA4567CBA36E9DA677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D96E9B62CDC6F4865CAFFF88AF140D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7684A27F59DF8C31CEA604F7C89FC56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D99AF66FE7D25461C4015009B9D11FA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B0CFAA6ACE2D5F636E4C5B93887B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CD7A821D4ED65335BF83337C1E9778 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C068A18C5413F804A2959126093416 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		1001521062846AAE932E157CCD37199F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D828792ADB17CA7AE1004833476F080B /* Info.plist */,
+				C4165B9241844AB04D66BDA049C0C174 /* PubNub.modulemap */,
+				060B740659164CD224545B0406642BE6 /* PubNub.xcconfig */,
+				8E4FC067DD574412EAB5E435C02161F9 /* PubNub-dummy.m */,
+				7477E552C577C035BACC8B6C2E077F3D /* PubNub-prefix.pch */,
+				A714E8339C5FE8CCB387C56E13C4AB5A /* PubNub-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PubNub";
+			sourceTree = "<group>";
+		};
+		1626DFA1B3F5D2669207187CE015194F /* Pods-ControlPanelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CE19BBA8081384D9693ED1338BEFFB5 /* Info.plist */,
+				69E4916197C25F5C85AE92B347C1CCC5 /* Pods-ControlPanelUITests.modulemap */,
+				BEF5D70799AC6B458C6374F55A3B343A /* Pods-ControlPanelUITests-acknowledgements.markdown */,
+				4A15FC2B639F77BF047AA081CB80837F /* Pods-ControlPanelUITests-acknowledgements.plist */,
+				C701C446C719B85D7E77EEBA73ACD328 /* Pods-ControlPanelUITests-dummy.m */,
+				1302BBBF954B535B6F2A70D62FD2C702 /* Pods-ControlPanelUITests-frameworks.sh */,
+				558F0C85267327A874E214C9F31E9021 /* Pods-ControlPanelUITests-resources.sh */,
+				D6FADD4EFFE3E5CB3CAFECAD36B7D814 /* Pods-ControlPanelUITests-umbrella.h */,
+				E1C47B7336D6771321CF224893EF545C /* Pods-ControlPanelUITests.debug.xcconfig */,
+				F604E6E23AAC974E07E9E54A6807CDDE /* Pods-ControlPanelUITests.release.xcconfig */,
+			);
+			name = "Pods-ControlPanelUITests";
+			path = "Target Support Files/Pods-ControlPanelUITests";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C068A18C5413F804A2959126093416 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C6E55E53EF9C0564E326D327D8D330F /* Pods-ControlPanel */ = {
+			isa = PBXGroup;
+			children = (
+				E36E9EE9877CCCAEC7FBF6B527C0B958 /* Info.plist */,
+				30E5E4452DBDB2683424AB7DA8F7689D /* Pods-ControlPanel.modulemap */,
+				906589ADD17F881EFC4C60E6878C4964 /* Pods-ControlPanel-acknowledgements.markdown */,
+				07CD79A0186D561B53386D46629DB449 /* Pods-ControlPanel-acknowledgements.plist */,
+				83E3151AE6E8B464E932BD02801BF4D0 /* Pods-ControlPanel-dummy.m */,
+				E86C4445CC84DA7D6E5F906E2BBB1C03 /* Pods-ControlPanel-frameworks.sh */,
+				79346F27F4232A4EFDF8ABFFC5230817 /* Pods-ControlPanel-resources.sh */,
+				83C55842AA14028A9D7CE5D8E633628D /* Pods-ControlPanel-umbrella.h */,
+				4284488AC877F9AD0A5E92AAB8ED4B32 /* Pods-ControlPanel.debug.xcconfig */,
+				5B0096F0FF573F760CBDE04F4BC34D91 /* Pods-ControlPanel.release.xcconfig */,
+			);
+			name = "Pods-ControlPanel";
+			path = "Target Support Files/Pods-ControlPanel";
+			sourceTree = "<group>";
+		};
+		76604AA593BC1D4D8001847863BB7DBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DABBB6C97B4D2C00546C6C3380297C6 /* ProgressKit */,
+				E2FE7ED5AB0AE4F3E84353CC4F9C5F87 /* PubNub */,
+				958215B9EC9AF8CD3C7367953591A4DB /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DABBB6C97B4D2C00546C6C3380297C6 /* ProgressKit */ = {
+			isa = PBXGroup;
+			children = (
+				C03E372C260F90FE3615BAFA58A42C27 /* BaseView.swift */,
+				7886C05012580469A5F89C733DED8769 /* CircularProgressView.swift */,
+				F34A62804CC4B92EAA93817E7A471F48 /* Crawler.swift */,
+				982394E6F48D86314CA6F6B90CEB8381 /* DeterminateAnimation.swift */,
+				A83706200E0A591AFD589D315663CE43 /* IndeterminateAnimation.swift */,
+				BBA4D54BC27AA635595699338BAAF6D2 /* MaterialProgress.swift */,
+				5BF3F9EF1A74183C58961C948016F051 /* ProgressBar.swift */,
+				BC3E9CC474D4C2F2C1942E15926B83A0 /* ProgressUtils.swift */,
+				4AC4F57EC07B7372520103F96A7AB3A0 /* Rainbow.swift */,
+				5A0C050F1103285819D0AB224753FA1A /* RotatingArc.swift */,
+				7A937AC2669D0613C142B4B6647EC0E8 /* ShootingStars.swift */,
+				4CE77788B595A5DF06A9EFC15B17494D /* Spinner.swift */,
+				9AA09ADBCC4451600004D5EDCAC6AA17 /* Support Files */,
+			);
+			name = ProgressKit;
+			path = ProgressKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				76604AA593BC1D4D8001847863BB7DBE /* Pods */,
+				E2671F022C3890A905CC357DBF5C1D9D /* Products */,
+				D5292FB5628903E2D8DB095AC0B079C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		958215B9EC9AF8CD3C7367953591A4DB /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F6D841180FB365BD87F96B35B1BEF203 /* SwiftyJSON.swift */,
+				C1DE7112D3564CA53B73C5F7A85CA068 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		9AA09ADBCC4451600004D5EDCAC6AA17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				778F349B861AE559E2541C42A0354D43 /* Info.plist */,
+				C7F4989CF05FED45961127E190BB287C /* ProgressKit.modulemap */,
+				E0335766CEE743A4F62444E1F3E99B63 /* ProgressKit.xcconfig */,
+				08A7381CC43A35E15854522AE1927C5E /* ProgressKit-dummy.m */,
+				52576F5F44A83C73BA692DB755984B5C /* ProgressKit-prefix.pch */,
+				711543CA2D6FC4B3723A9D515C989CD9 /* ProgressKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ProgressKit";
+			sourceTree = "<group>";
+		};
+		C1DE7112D3564CA53B73C5F7A85CA068 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A96D2ED2F3B02291FCCAC80FFA76C055 /* Info.plist */,
+				0A14D420819B209519DBE3CB527E730F /* SwiftyJSON.modulemap */,
+				F698AC4A187C02AE455949F4E802635C /* SwiftyJSON.xcconfig */,
+				A0A5F9149E256783CA2EB7ABBF2552A2 /* SwiftyJSON-dummy.m */,
+				CB7FFFF2E463720880CD36CEEF601805 /* SwiftyJSON-prefix.pch */,
+				81750B6ED1F4525EB8AF88A49BB381E3 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		D5292FB5628903E2D8DB095AC0B079C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E55E53EF9C0564E326D327D8D330F /* Pods-ControlPanel */,
+				DF0F6DC433FB7AF2A1CCAFC5CEB9FC58 /* Pods-ControlPanelTests */,
+				1626DFA1B3F5D2669207187CE015194F /* Pods-ControlPanelUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF0F6DC433FB7AF2A1CCAFC5CEB9FC58 /* Pods-ControlPanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C020EDD7819791815A50F33644BF96 /* Info.plist */,
+				F9DF0C19A51264B855F4C919B8738588 /* Pods-ControlPanelTests.modulemap */,
+				7E20A1A562FE99D99E0D2D05DE683E1E /* Pods-ControlPanelTests-acknowledgements.markdown */,
+				EF351F342906FBBFA709ECA60A8FCB40 /* Pods-ControlPanelTests-acknowledgements.plist */,
+				C0FA63E84823A722158B14B5E241CF62 /* Pods-ControlPanelTests-dummy.m */,
+				0041CA9FE47F1CE1E7E8B6123AF90E89 /* Pods-ControlPanelTests-frameworks.sh */,
+				CC746E2E1E4D63879F226D6BFBAAB0A5 /* Pods-ControlPanelTests-resources.sh */,
+				DC871E0B4DD124BF324602752C445962 /* Pods-ControlPanelTests-umbrella.h */,
+				1A219700399C8A6662C7A62967104731 /* Pods-ControlPanelTests.debug.xcconfig */,
+				D64CE263B6D97B1E137DE75122F4D1CB /* Pods-ControlPanelTests.release.xcconfig */,
+			);
+			name = "Pods-ControlPanelTests";
+			path = "Target Support Files/Pods-ControlPanelTests";
+			sourceTree = "<group>";
+		};
+		E2671F022C3890A905CC357DBF5C1D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AEDDF28BB0623129DC83A6B2FE94164 /* Pods_ControlPanel.framework */,
+				26FCD4DE4729817451BF08465D983ACB /* Pods_ControlPanelTests.framework */,
+				CE6CB990C404AAC0D0AA48FFB53E0EEC /* Pods_ControlPanelUITests.framework */,
+				B19F852DE4C1883A040980FAF4CCCEFB /* ProgressKit.framework */,
+				95703F53B36A13272581648E077BE829 /* PubNub.framework */,
+				404F35A5F7FCDFC14F05EDA7895A9EA2 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FE7ED5AB0AE4F3E84353CC4F9C5F87 /* PubNub */ = {
+			isa = PBXGroup;
+			children = (
+				FABE15953D6855EC7A5A9AA59BAA6631 /* Core */,
+				1001521062846AAE932E157CCD37199F /* Support Files */,
+			);
+			name = PubNub;
+			path = PubNub;
+			sourceTree = "<group>";
+		};
+		FABE15953D6855EC7A5A9AA59BAA6631 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6FD6880838C1C62D3A088EA4A0D11 /* NSURLSessionConfiguration+PNConfiguration.h */,
+				2BDF926733C5B230F82F55D105111A93 /* NSURLSessionConfiguration+PNConfiguration.m */,
+				84A7806556FA483A6A63B8EE83848954 /* NSURLSessionConfiguration+PNConfigurationPrivate.h */,
+				E813DC555ED0D6C8939B862979C75299 /* PNAcknowledgmentStatus.h */,
+				1E9C3CE6DF01B170F3E03CADD42BC42D /* PNAcknowledgmentStatus.m */,
+				C763ED44AE490F523B6648447CEA1EFC /* PNAES.h */,
+				B99E888DE7138D131F25B214D34A0025 /* PNAES.m */,
+				C2CBCD87BCD030A5671142A1B260E250 /* PNAPICallBuilder.h */,
+				C0863FD5C13078F0D8AB1AF1CFC8B6D6 /* PNAPICallBuilder.m */,
+				4D97C39E583DE78F5069597D9F26D144 /* PNAPICallBuilder+Private.h */,
+				33313CC78176CF6A96DCEE2C2DB5047C /* PNAPNSAPICallBuilder.h */,
+				E6D3F43361C7B3CD551C7D74B6686EFB /* PNAPNSAPICallBuilder.m */,
+				7788561AA1755360A8BF19575BC02B55 /* PNAPNSAuditAPICallBuilder.h */,
+				A86D7434D4577D42955ADDF7227B556B /* PNAPNSAuditAPICallBuilder.m */,
+				7525E0E8AB72FA1C985F237E5D51DE27 /* PNAPNSEnabledChannelsResult.h */,
+				013BF6857B5428F3439AF9BEC8B5BAE6 /* PNAPNSEnabledChannelsResult.m */,
+				B1053C6D38BD3DC1D575634D2A1738D9 /* PNAPNSModificationAPICallBuilder.h */,
+				89595AD28F5D03D36E231DDF9D049CA3 /* PNAPNSModificationAPICallBuilder.m */,
+				00DF5A6CD5456A8AD05765842C615DD9 /* PNArray.h */,
+				3EF0F6B0D8A529F6D6FD9E8A0D6912D0 /* PNArray.m */,
+				51882DEFC1E5DE5B9C99E6FAED6CCE1D /* PNChannel.h */,
+				C72581F22D65A5CDA57F2D8EDE2E0579 /* PNChannel.m */,
+				23644E6D553DCA3CE1DED6362653A72E /* PNChannelClientStateResult.h */,
+				92FDA4FD1FFFD4B767645FA860365E5B /* PNChannelClientStateResult.m */,
+				4581C78966509ADEFD9895DEEBCD4759 /* PNChannelGroupAuditionParser.h */,
+				EE5FF6ED95C65CBCFB1761AA4E78AB00 /* PNChannelGroupAuditionParser.m */,
+				0ED1DD21A03E4ECE9630D4BE46890108 /* PNChannelGroupChannelsResult.h */,
+				8DC13525D0209CFFB9E7C07728EBE7DD /* PNChannelGroupChannelsResult.m */,
+				850FBB0BD95B1AA15755BEB85FBD829F /* PNChannelGroupClientStateResult.h */,
+				2A12567BC8F415E276F396CF60C7DD4A /* PNChannelGroupClientStateResult.m */,
+				949EDB0974343AB1DF5A47D68B1BEE8B /* PNChannelGroupModificationParser.h */,
+				427836A3F4F876D276E7D0D9B4DA5918 /* PNChannelGroupModificationParser.m */,
+				6256C3C0A27ACEBB1451CF7A29F6071D /* PNChannelGroupsResult.h */,
+				397FEF4074E2B8A6BCB8E2FD9DDC0F9E /* PNChannelGroupsResult.m */,
+				75174C34F856216D54D6ED8336A891EA /* PNClientInformation.h */,
+				DB44FB4EA1B1AB3283575D35BAF6199C /* PNClientInformation.m */,
+				F5666E1DBF06389D35E5A907751A908C /* PNClientState.h */,
+				FE9E43DFF998C115B6F0984F1BF24875 /* PNClientState.m */,
+				FE38E51B57052AFC9631A8493342C980 /* PNClientStateParser.h */,
+				E6543A0074496914BAB28FF60CA1793E /* PNClientStateParser.m */,
+				B6D3B7248266E932D9F1B46B9F3131FF /* PNClientStateUpdateStatus.h */,
+				600ABD74B411509D8527EA8A85C00904 /* PNClientStateUpdateStatus.m */,
+				E10F9845AE02C4D834F801FE6B0EA21E /* PNConfiguration.h */,
+				98CAB06AF673A69CC920C540882DAAB2 /* PNConfiguration.m */,
+				1E20C582535E7E6A3ED1A7DAEFD01B58 /* PNConstants.h */,
+				DDB88409E86449E8FF486EBB1B3018DE /* PNData.h */,
+				A22D346E3EC315295F28EE88D9197C33 /* PNData.m */,
+				F43D6F872DD0F5CDAB62D682E82CE005 /* PNDictionary.h */,
+				0E3CE431A192AF874F9942411A77ADF3 /* PNDictionary.m */,
+				183CDC43508581C4F7AE832F819898A5 /* PNEnvelopeInformation.h */,
+				C58EEBA38FC0B7A1B1433D541AD964A6 /* PNEnvelopeInformation.m */,
+				01E410E928D6DFB76C3C3DDAA384514C /* PNErrorCodes.h */,
+				BD1CBB6A8A78082158E4577A68E5B951 /* PNErrorParser.h */,
+				8026DE9E7C6F02B0CC1E344C2E9F5B7C /* PNErrorParser.m */,
+				1C26E86141C9FDC81250FD3E29721077 /* PNErrorStatus.h */,
+				9B4DBE96A493F1D03087B9C8C0E28192 /* PNErrorStatus.m */,
+				2D356B5F73B0B3E664DD0CF29D51349F /* PNErrorStatus+Private.h */,
+				032E40F6D11B5F4DDCADBB7444AC8DAF /* PNGZIP.h */,
+				6A141547CB4BAFC613911C15A0EED1C8 /* PNGZIP.m */,
+				6EE1230034361745C520EAB63A1EB20E /* PNHeartbeat.h */,
+				4812FF7C942B13E88856032432B82EEB /* PNHeartbeat.m */,
+				18A537201421C9D871C644168B7EA8A1 /* PNHeartbeatParser.h */,
+				4DA1D2C6406F380940F47D892B0B009A /* PNHeartbeatParser.m */,
+				3EAC22C05446FB8FC85CE18819903D8A /* PNHelpers.h */,
+				76E6EC5E3CDD6EC759DB62239C26D65E /* PNHistoryAPICallBuilder.h */,
+				AECC9919BDCBF536D95B0CB745851180 /* PNHistoryAPICallBuilder.m */,
+				72651D467811131507719DFED98B6ABC /* PNHistoryParser.h */,
+				4FB1666676392D53BA3F9C4BD1C47F80 /* PNHistoryParser.m */,
+				B897118317376074B028A1ED2FB1CEE3 /* PNHistoryResult.h */,
+				330EA5A5175B75271C43A38DCE0A5EA3 /* PNHistoryResult.m */,
+				FBA21C96E2475F0DE58F7082763167AE /* PNJSON.h */,
+				94CFB176EE994C247F2D588E26E47E47 /* PNJSON.m */,
+				32E5496A5E3B33E2717E8D088FA11F9D /* PNKeychain.h */,
+				4688E4AA746E22A1A01FD9792FC6B4F9 /* PNKeychain.m */,
+				04F6B055747F9E30B94977AC1B9018C0 /* PNLeaveParser.h */,
+				995D6BE465B68CA379D5E15EACEDF036 /* PNLeaveParser.m */,
+				E2800E4ECCF90707AC5B132E24C05967 /* PNLLogFileInformation.h */,
+				26DFE7F5CBEDD6DEA03C605F98AD9F48 /* PNLLogFileInformation.m */,
+				A131DB6C3DAB80287D4BF79439C78233 /* PNLLogger.h */,
+				687AC497CC15AEA88B76A0EC277EC9DF /* PNLLogger.m */,
+				98B33215467BF13118071D6D257455D3 /* PNLogMacro.h */,
+				BDE66DF1935A4E5705398C9C77F527CD /* PNMessagePublishParser.h */,
+				28C42ADD90E5A67ACC234838C0DAA859 /* PNMessagePublishParser.m */,
+				AA126BD31984CA9816320D6829E1AE6D /* PNNetwork.h */,
+				3FCB708B88DFA7CD2E3EEFF5CAF5EA46 /* PNNetwork.m */,
+				6661AEC55A0F1A8AB73EAC9876EEFDAF /* PNNetworkResponseSerializer.h */,
+				E977F9C99C1F4D26F4586B7C5B207F63 /* PNNetworkResponseSerializer.m */,
+				00D4195BEE3DC867E8DB5C4F915D08B2 /* PNNumber.h */,
+				14D17423EF1D8FFD1A8C6F00FE6B0C46 /* PNNumber.m */,
+				8D1BA7B1BE4687DF3F35F586FAEF1EF4 /* PNObjectEventListener.h */,
+				729F579401D5E2DDAD77D82A23278F8C /* PNParser.h */,
+				54C8EFA7E6DA29910F8A2F84D9539BE7 /* PNPresenceAPICallBuilder.h */,
+				C69D5F4D4F191E88997EBF2488CB248B /* PNPresenceAPICallBuilder.m */,
+				6F964E66EBEE8FDDB5D5A94F1A77F819 /* PNPresenceChannelGroupHereNowAPICallBuilder.h */,
+				963CC38C17D46C147ED1179F51AC0B7E /* PNPresenceChannelGroupHereNowAPICallBuilder.m */,
+				C60E7617E10CDC89D08E939AFBD0618C /* PNPresenceChannelGroupHereNowResult.h */,
+				36BEB0EABA4530F1B12BA27C0DD95889 /* PNPresenceChannelGroupHereNowResult.m */,
+				879443760C7C9AA8DFDDA90BA7EE66C2 /* PNPresenceChannelHereNowAPICallBuilder.h */,
+				B498BB26843F9BE66CE7922F0D098E97 /* PNPresenceChannelHereNowAPICallBuilder.m */,
+				940A0101DFF4DA0005050C94A0C5C6DE /* PNPresenceChannelHereNowResult.h */,
+				1777180F5DCEAAB4BC90AA9BAEB18230 /* PNPresenceChannelHereNowResult.m */,
+				EFA75242F777B6C82FF7795C7FBF04BF /* PNPresenceGlobalHereNowResult.h */,
+				120472799CE3F6B0B9E46B7227EDABBC /* PNPresenceGlobalHereNowResult.m */,
+				D7E6CD3A80A607A4B7C74089F4125D85 /* PNPresenceHereNowAPICallBuilder.h */,
+				2D6C088B754AB81E5FF8BD6044C6C483 /* PNPresenceHereNowAPICallBuilder.m */,
+				04954EFD9121B0008B10E7ED88774942 /* PNPresenceHereNowParser.h */,
+				E76FDADF9855320CBE7336A083579E33 /* PNPresenceHereNowParser.m */,
+				B0A6118F73D8D76A96E9B67C44719A92 /* PNPresenceWhereNowAPICallBuilder.h */,
+				EA6C63378AC18CCB3762AED889CFACDB /* PNPresenceWhereNowAPICallBuilder.m */,
+				D8080E277992DA55A71BE22080621F8A /* PNPresenceWhereNowParser.h */,
+				FC6A478986465705ABD206BB17A8DF0A /* PNPresenceWhereNowParser.m */,
+				36D12A77329785356348945CB6526FF3 /* PNPresenceWhereNowResult.h */,
+				183D12B3E4898A496287FD487EBC3002 /* PNPresenceWhereNowResult.m */,
+				116F5C628EFD3DBA258BD7A62E7351BA /* PNPrivateStructures.h */,
+				9EF382B37DFAB5D206992AA75EE566C5 /* PNPublishAPICallBuilder.h */,
+				0989D5D8AB5838D498E17C9BCDCAC32B /* PNPublishAPICallBuilder.m */,
+				2245D5AF9DEF3E4FBE9A717DC7BB4B7C /* PNPublishSequence.h */,
+				A8FDB6CD66E87D8988824E2AF2D94FD8 /* PNPublishSequence.m */,
+				83710F5D0096C2B7587602A602CFC05A /* PNPublishSizeAPICallBuilder.h */,
+				FCDB3C7AAD98025D2389F4064286EE5E /* PNPublishSizeAPICallBuilder.m */,
+				FCA7E491B20851A247ED149C02189C10 /* PNPublishStatus.h */,
+				5A0426B14208B6E3A95CF2B8A4335D3F /* PNPublishStatus.m */,
+				F0CE87F405C95EC87DFC9BFB63CDD0C2 /* PNPushNotificationsAuditParser.h */,
+				1BC5C078A4298E7DC5B3BEA7C34EE75E /* PNPushNotificationsAuditParser.m */,
+				00C02304B8AA9EE3439B547FFB4BC2C5 /* PNPushNotificationsStateModificationParser.h */,
+				B93E17AD12BF3055164281A7F0F499C6 /* PNPushNotificationsStateModificationParser.m */,
+				26096ECE23308DB831BC6FD0359F69AE /* PNReachability.h */,
+				4AEA1E07AAA09547260534C2AE52695C /* PNReachability.m */,
+				95FF6CD22AE49A63CB0C3B69DA7E5340 /* PNRequestParameters.h */,
+				AD8047F9C85D195E25FEF054EDA3FDFC /* PNRequestParameters.m */,
+				FEF5EB6C6438BD36128360B3ADAA2FAF /* PNResult.h */,
+				D393F6F4D3A04D15E49BA833A834004B /* PNResult.m */,
+				AFBC8BB8998EC875B450B4314814F3EB /* PNResult+Private.h */,
+				C8C778FF4A896B1084BF62F720A8538E /* PNServiceData.h */,
+				5084B02B6A079BE1F87DDE292CB25877 /* PNServiceData.m */,
+				EC1B004A6AAFF6ECABFE8B46B7115A05 /* PNServiceData+Private.h */,
+				574D6DE9E827A8392683EAABABED7F8D /* PNStateAPICallBuilder.h */,
+				DB94D5C37E50F1388B1B115992F8433C /* PNStateAPICallBuilder.m */,
+				4BC8809A3867A8B93315F1A028E43810 /* PNStateAuditAPICallBuilder.h */,
+				CD94F27899227A2975FFAB7B81740C9B /* PNStateAuditAPICallBuilder.m */,
+				91C5159553DFA02A71B15C0E78373E19 /* PNStateListener.h */,
+				6BDD75A4C055AA0ABBFE7DA723EC8494 /* PNStateListener.m */,
+				34822AD249DB4739AC9E76562F4EE9A8 /* PNStateModificationAPICallBuilder.h */,
+				E5D9AD830C1F32B88D9311F6FDA8AC69 /* PNStateModificationAPICallBuilder.m */,
+				D204A7BCD0305C9EEA0739AEBAA40055 /* PNStatus.h */,
+				AE8FC4618810BEAC9B5B15874382C355 /* PNStatus.m */,
+				375285F33465F50F01645996668BED47 /* PNStatus+Private.h */,
+				632106995BE80642A08431E6DC403428 /* PNStreamAPICallBuilder.h */,
+				E634C794A4BB7DAB8C58589F594C78E2 /* PNStreamAPICallBuilder.m */,
+				2535C5F357ED55248832955CE0A103B2 /* PNStreamAuditAPICallBuilder.h */,
+				4ECEF21AB7018552E5DEF196C8DC5FEA /* PNStreamAuditAPICallBuilder.m */,
+				3B7CC68A5420801E0BA812FF18D4F16A /* PNStreamModificationAPICallBuilder.h */,
+				DCAD4EAB18DA504D762D429653BAAF20 /* PNStreamModificationAPICallBuilder.m */,
+				0F7FAC9CC5CF4698599C57DB813701FD /* PNString.h */,
+				D9CA4328B10FB59F44A8EAF0F3DF9BE8 /* PNString.m */,
+				D2E1EA16F3A59114ED99B04AFCA4DB43 /* PNStructures.h */,
+				AAD256EAC411C74761FD7483A8503254 /* PNSubscribeAPIBuilder.h */,
+				FF6591674A1319C69544A7E22A9849A9 /* PNSubscribeAPIBuilder.m */,
+				C9100AA13942BCC9B21631AA34CA3FF2 /* PNSubscribeChannelsOrGroupsAPIBuilder.h */,
+				DB9E7E487485323070EA292D281E0D55 /* PNSubscribeChannelsOrGroupsAPIBuilder.m */,
+				C1AD7486F40657A50F00C48A51D50726 /* PNSubscribeParser.h */,
+				F7CFB2C480D8BA064C092CCFB40B3E09 /* PNSubscribeParser.m */,
+				13489282E0D456FFCCFE9567C1A5F86D /* PNSubscriber.h */,
+				EA795A512E288912894B071B336A566F /* PNSubscriber.m */,
+				09B991901AC3CDEB4B324CE46994D955 /* PNSubscriberResults.h */,
+				DBCB7AC619A6A3E6132EE9034105AFC2 /* PNSubscriberResults.m */,
+				F7605AB699CF4DEFA07F345D51B95FC6 /* PNSubscribeStatus.h */,
+				BC11E6586F14123C0DA396FB41C2F205 /* PNSubscribeStatus.m */,
+				C23C316801C5D034F3CD4DA28C735CE7 /* PNSubscribeStatus+Private.h */,
+				A0F16908F1C7B55DD099209B62674CA4 /* PNTimeAPICallBuilder.h */,
+				C0D56E1185C513110EE39D7C049E0DBF /* PNTimeAPICallBuilder.m */,
+				93612183D2DEBA60F0FE566C362FFE71 /* PNTimeParser.h */,
+				6AE0723033EE6FE60A5E7FC7A8B85E46 /* PNTimeParser.m */,
+				33CAD07EB80659B32C8FA7AC654A707C /* PNTimeResult.h */,
+				FBCA3F76BB0C9D9D008E67CB5A270B77 /* PNTimeResult.m */,
+				D1DB0AC91E2029B7C26657F2D7F99AC4 /* PNUnsubscribeAPICallBuilder.h */,
+				76A4967C123D36C1C584839028BB2E57 /* PNUnsubscribeAPICallBuilder.m */,
+				D729B25C7747A7910B6752F4168931CB /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.h */,
+				67251A2017DA331217B70073A0A02FD8 /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.m */,
+				A99CF44DC82E396D7426F82AE6A67B62 /* PNURLBuilder.h */,
+				29FF20167AB3532E5AA6499843E9A1F8 /* PNURLBuilder.m */,
+				44F60C3C711B51708ABC75CEA1911216 /* PNURLRequest.h */,
+				07C9992FFC479644B7DB0428447FFDF3 /* PNURLRequest.m */,
+				C9F394D82779D093377F22AC21942AC4 /* PubNub.h */,
+				FB7A8445404B3CC2E16EB631B8D0DA9D /* PubNub+APNS.h */,
+				9AE4E769DCE9C69F9DB4FABD511AB18F /* PubNub+APNS.m */,
+				1710E92EDFBE4B5DF3F6C7CD302611C2 /* PubNub+ChannelGroup.h */,
+				56E7FA8E5D73134762F01DCC6690D2F6 /* PubNub+ChannelGroup.m */,
+				4FBC95CF63AB57A6899E2146F4DF77B3 /* PubNub+Core.h */,
+				9FF24A6962855CDE1D1299A141127F79 /* PubNub+Core.m */,
+				F3A9DCCFAAD3B3A323B6AE1EE821A419 /* PubNub+CorePrivate.h */,
+				227AC9F6EE7686881E2E569FFC0CB861 /* PubNub+History.h */,
+				13F23C52448DBF861DEE4CB3D60AF9DE /* PubNub+History.m */,
+				DEAC40D80B58A0AFB811C0BDDE8C4A68 /* PubNub+Presence.h */,
+				1F35B58893DD46F5D0CC61FAB1F8BC00 /* PubNub+Presence.m */,
+				1445266EE9365C1577C6FB25FC1B4E09 /* PubNub+PresencePrivate.h */,
+				63DEC6BB0D4421D99B95B9509B52F4F5 /* PubNub+Publish.h */,
+				1092222B7C4A00DACF2A1E764005CC13 /* PubNub+Publish.m */,
+				90727B318F4DDA7E6908358408AA7726 /* PubNub+State.h */,
+				18CA28897BA86C4DAA9B3D4F0C14DA72 /* PubNub+State.m */,
+				305D3F7585CA0C3452277FE0C94CDB34 /* PubNub+Subscribe.h */,
+				7B4BCBD53203231F01A207CF82C0F331 /* PubNub+Subscribe.m */,
+				EF2BECC063E54D55776680F51894F3C5 /* PubNub+SubscribePrivate.h */,
+				9B75D794B4F88FACBF8B968FFDE8B48E /* PubNub+Time.h */,
+				6D06D22CECC499127A65EE019E08C962 /* PubNub+Time.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C1D8AD0BD8E03E1777194A5AA2BB288 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D9D8549C21DCCF583B0F232B5DC735 /* Pods-ControlPanelTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C894A42FE0A8C17EAB8081F3E682076 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21567EBEE3068F5174FD7C4F1967BE9F /* Pods-ControlPanelUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADAF1785E1543E9D492434769920BAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55487A7CE0E1EA6D8DD8CC0397ADD497 /* NSURLSessionConfiguration+PNConfiguration.h in Headers */,
+				C637272C2EB14CD104ABD483A6439AA6 /* NSURLSessionConfiguration+PNConfigurationPrivate.h in Headers */,
+				61856A23C158F14036586E79DD183F89 /* PNAcknowledgmentStatus.h in Headers */,
+				3B24B58BF1BD9632661306FC8590B6CE /* PNAES.h in Headers */,
+				2717A13503DF26BD86D48EC725059EF0 /* PNAPICallBuilder+Private.h in Headers */,
+				4522C34EEB6F6730E05989877CF131B8 /* PNAPICallBuilder.h in Headers */,
+				79045F0C749D0896EAA029A1C0F1F151 /* PNAPNSAPICallBuilder.h in Headers */,
+				E4032EDA075817BF908EFC201306AD30 /* PNAPNSAuditAPICallBuilder.h in Headers */,
+				DBF34568301DEC52A1F032042D2FB507 /* PNAPNSEnabledChannelsResult.h in Headers */,
+				31674223C11AAE8A1DEC94886A20A117 /* PNAPNSModificationAPICallBuilder.h in Headers */,
+				DF375B174951B0E23ABD35FBA16F84CA /* PNArray.h in Headers */,
+				0717F9B3231E7B0FBAB10D99C0FB79E1 /* PNChannel.h in Headers */,
+				CB91DFD3BC63E093AB1E128D90E9DF12 /* PNChannelClientStateResult.h in Headers */,
+				3F8C86F2F902C7D5C8FE06E7F04E36C6 /* PNChannelGroupAuditionParser.h in Headers */,
+				B7FD849505063002B3274F795299F741 /* PNChannelGroupChannelsResult.h in Headers */,
+				947BC56D983309642A860BD060E82C06 /* PNChannelGroupClientStateResult.h in Headers */,
+				2BFBD270780FD2C13496395DB6FA78F1 /* PNChannelGroupModificationParser.h in Headers */,
+				C0071B2C1CC714C71C96F90C3733869E /* PNChannelGroupsResult.h in Headers */,
+				63DC426F27D1D0F748016EEBB6131359 /* PNClientInformation.h in Headers */,
+				4BA2F7A4DDB2069467FA6D438B38C951 /* PNClientState.h in Headers */,
+				F8019374FC47F86C343CC5E308492B7A /* PNClientStateParser.h in Headers */,
+				ADC89494FA0552E709BFFFF8D066B20C /* PNClientStateUpdateStatus.h in Headers */,
+				F678C5A9F2CE0ECA2C20688A3770CFA0 /* PNConfiguration.h in Headers */,
+				61D465C88F2CEF9846CB338A02F719A5 /* PNConstants.h in Headers */,
+				A07DEE1E229884CACF5C99AD42EDDFA6 /* PNData.h in Headers */,
+				285DBF8D44C2EC56350850967C5C3813 /* PNDictionary.h in Headers */,
+				7CC1423260B089653FBFEFD65B7C878F /* PNEnvelopeInformation.h in Headers */,
+				93C762F955C336C7634A2A6C1630E4FD /* PNErrorCodes.h in Headers */,
+				EF8ED02B130AA7EBDE32222D9108FE69 /* PNErrorParser.h in Headers */,
+				4C19C5082CD36E1F5095629459930ADA /* PNErrorStatus+Private.h in Headers */,
+				85F59D4BDDB28859B9D72382BC67FB5F /* PNErrorStatus.h in Headers */,
+				30504259CD48E1F9C77DC3C7034C063D /* PNGZIP.h in Headers */,
+				49AC5F53104B6783553AEBDEDA2C47E4 /* PNHeartbeat.h in Headers */,
+				AB3F51DF9B2723CDE517637EC1206826 /* PNHeartbeatParser.h in Headers */,
+				FEB3F7885BB0147AE8D9E5B1442DCB84 /* PNHelpers.h in Headers */,
+				14538C54DDC2531CF7E589FB69B89F73 /* PNHistoryAPICallBuilder.h in Headers */,
+				FE9351498F7EB33E80B8B9BD12CC7FEF /* PNHistoryParser.h in Headers */,
+				7C373EFF2C0F2B3FC6869DD1B10BDA21 /* PNHistoryResult.h in Headers */,
+				D2689480CD8CC57219142F79991286DB /* PNJSON.h in Headers */,
+				7B8A1936CF51070D77FAE4822D841642 /* PNKeychain.h in Headers */,
+				4AC7AA32C195AE6021988B8E0A797126 /* PNLeaveParser.h in Headers */,
+				65933ACC6D14778FA6C468CEBB14CAF1 /* PNLLogFileInformation.h in Headers */,
+				C09C8DB483B28D95837851E9B4A55174 /* PNLLogger.h in Headers */,
+				DC94C52FCA5FCDA01E8CCF72360D86B3 /* PNLogMacro.h in Headers */,
+				7A1E734E4135FC984114688B5F747814 /* PNMessagePublishParser.h in Headers */,
+				A5C11CA5FE00E0CCE50ACC41F7512473 /* PNNetwork.h in Headers */,
+				B78DC57ED1209BFE39AB3893D3A9788F /* PNNetworkResponseSerializer.h in Headers */,
+				E862EEA56C76D9981BFB7AF5F2109993 /* PNNumber.h in Headers */,
+				E20CB7B8F2BA25454035333BC654CDF5 /* PNObjectEventListener.h in Headers */,
+				A11A185AF73DE1CE1910F5DB7155362C /* PNParser.h in Headers */,
+				90A9A6402980F66E8D3F00FF801DEAC2 /* PNPresenceAPICallBuilder.h in Headers */,
+				C891FDF4D6F1CEC9EFE53CDB34EE6BE5 /* PNPresenceChannelGroupHereNowAPICallBuilder.h in Headers */,
+				AE23C5A7020706A88DA91C546ABDDE10 /* PNPresenceChannelGroupHereNowResult.h in Headers */,
+				5150F4206D4909B230ED338F4A3F78D4 /* PNPresenceChannelHereNowAPICallBuilder.h in Headers */,
+				D66D04EFB8C8EA43AC9F16EA85CFF0B0 /* PNPresenceChannelHereNowResult.h in Headers */,
+				8AB17DFAD6794F579329BC2E1F3D55A8 /* PNPresenceGlobalHereNowResult.h in Headers */,
+				FEEED9B67F5A89594D210EC9528138D3 /* PNPresenceHereNowAPICallBuilder.h in Headers */,
+				B610020A0771368DCBBF9EB92D8370F1 /* PNPresenceHereNowParser.h in Headers */,
+				B0CB7B9C7F50EE8EFA46D6D9FBD24D41 /* PNPresenceWhereNowAPICallBuilder.h in Headers */,
+				B96C2363122555D21963DB695190DB05 /* PNPresenceWhereNowParser.h in Headers */,
+				7AB4B0BA4A9A4230FE0870B1524B1912 /* PNPresenceWhereNowResult.h in Headers */,
+				C943D787EB95809E6C5B0D52CCC4DE24 /* PNPrivateStructures.h in Headers */,
+				E6CE9BA5A4A25865B6D0585BC157259A /* PNPublishAPICallBuilder.h in Headers */,
+				8210FDAF812E71EB5BB0516E9D646D83 /* PNPublishSequence.h in Headers */,
+				CF9CA6671896EFF78CAFD73A4AC83927 /* PNPublishSizeAPICallBuilder.h in Headers */,
+				853C065C0FDF2A7D23142AF2CFCE7079 /* PNPublishStatus.h in Headers */,
+				1D987CA3D53A27A0BA205AEDD4C64C6D /* PNPushNotificationsAuditParser.h in Headers */,
+				5343A23F1113BE6FBA70B8EC79C24985 /* PNPushNotificationsStateModificationParser.h in Headers */,
+				B5B5B0225EEF2E396A58842C762C3A3A /* PNReachability.h in Headers */,
+				98D6EDA760F27B5ACF3F2AC1A9970334 /* PNRequestParameters.h in Headers */,
+				02B9F0304E29516D1B28C36598A8D006 /* PNResult+Private.h in Headers */,
+				802B84D441382A4B7756B2DDAEC4DBF5 /* PNResult.h in Headers */,
+				C56988F3358302796A0F7CF30C28870C /* PNServiceData+Private.h in Headers */,
+				EE31EC3BC26DBC45E846BC762821441E /* PNServiceData.h in Headers */,
+				E67ABDE29B5513D0DEEF738569035FEF /* PNStateAPICallBuilder.h in Headers */,
+				92AF8A1193E7C3FC1A695402C622D5D1 /* PNStateAuditAPICallBuilder.h in Headers */,
+				A20400FC5B02084CF3E9009C27500A8B /* PNStateListener.h in Headers */,
+				0157A5ED1263F44B677004770DD64741 /* PNStateModificationAPICallBuilder.h in Headers */,
+				D23A0377D997E834F59F39A4B613AC0E /* PNStatus+Private.h in Headers */,
+				B258DDEEEC137F060CA5A1CA8F98974A /* PNStatus.h in Headers */,
+				079C94D9685C471AC550ED0B4E67D206 /* PNStreamAPICallBuilder.h in Headers */,
+				A70E854AD751BB351A24359F95E6781B /* PNStreamAuditAPICallBuilder.h in Headers */,
+				B0462F94255FF1995E44398155D44FBA /* PNStreamModificationAPICallBuilder.h in Headers */,
+				AB3837715750CD39DDC4635381DB3706 /* PNString.h in Headers */,
+				04A368A2C614CDD2AE59DE9D9C1F92B2 /* PNStructures.h in Headers */,
+				412CDDC941F67A11FD08955D34FA556C /* PNSubscribeAPIBuilder.h in Headers */,
+				77319F6E370D5E488250B19C6666EF88 /* PNSubscribeChannelsOrGroupsAPIBuilder.h in Headers */,
+				611B61B42F21D3FB1C0246B04ABD57CC /* PNSubscribeParser.h in Headers */,
+				9CAAA38347D456D9A7E3B2B2282D2EB1 /* PNSubscriber.h in Headers */,
+				DBF96CE2D21FF75675F92565E567F93F /* PNSubscriberResults.h in Headers */,
+				D819E246C533AA07AE5DB5A065073F73 /* PNSubscribeStatus+Private.h in Headers */,
+				663BC2EE0B7900CFB76835BB89171F9A /* PNSubscribeStatus.h in Headers */,
+				56E65FDA11A7AC9A11515A4670E897BB /* PNTimeAPICallBuilder.h in Headers */,
+				0F331AE88ABA3D3DA23E417464EDB1C5 /* PNTimeParser.h in Headers */,
+				36568C93062EADE45FE4470A1E9BEB70 /* PNTimeResult.h in Headers */,
+				09F2869E629C635488574D4BE7051FAE /* PNUnsubscribeAPICallBuilder.h in Headers */,
+				B80FA047E35BCD7E4279D2B060424E68 /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.h in Headers */,
+				E0EA40238177C8C2FEA71EBF4A58E497 /* PNURLBuilder.h in Headers */,
+				3D8D1433DBE84B344518A19A2EF3C62F /* PNURLRequest.h in Headers */,
+				DF8E950A4198787A546369AF619A282D /* PubNub+APNS.h in Headers */,
+				CDB4883AF559AB60F12659314018280D /* PubNub+ChannelGroup.h in Headers */,
+				4367CC3133CE4DC49ADC882BDA0853FC /* PubNub+Core.h in Headers */,
+				0BC5B675D6665DE057D7187BDD0AB3C0 /* PubNub+CorePrivate.h in Headers */,
+				BBCCC339ABC3FC171418747A4947D892 /* PubNub+History.h in Headers */,
+				46A37A48FFCDB28CEA825DDB68DA0D40 /* PubNub+Presence.h in Headers */,
+				C70352C1ABF0B2F9E164D5BFC29323AB /* PubNub+PresencePrivate.h in Headers */,
+				93D9D9DB5377925BA012397B646D7ADD /* PubNub+Publish.h in Headers */,
+				D7585ABB6A5A5499E7F84BC85E25C476 /* PubNub+State.h in Headers */,
+				4F2339981CCDA55E262540E0C35BFD2B /* PubNub+Subscribe.h in Headers */,
+				B4EB52ADA13549BAB29EF7F527254CC9 /* PubNub+SubscribePrivate.h in Headers */,
+				9B3ACD58350E7A4A6EB0968931B1A64C /* PubNub+Time.h in Headers */,
+				078711FC0608CBB7A3C59F27DB022447 /* PubNub-umbrella.h in Headers */,
+				16CE253CDA783D6FD3837A2C73D4B417 /* PubNub.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADCA0D750EE40B98AF7DFE4DFA5FFE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CEDE54E03C1AC13C71323E1E2CF7FC /* ProgressKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1527F9A8E2471160DE938F2FB5987F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE9A4A3771E10C54C4383B8AB1FC958 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF663F52B7E3F5B89F919255A4B1C4C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB0ACEB1D3330466EF8E096187D895E /* Pods-ControlPanel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		063C2F34470A786106F5EE71F3CDC35A /* Pods-ControlPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C10EFC047CC46F610B061473BCDD412 /* Build configuration list for PBXNativeTarget "Pods-ControlPanel" */;
+			buildPhases = (
+				F9AEF4897921993608E8F8B6844099B4 /* Sources */,
+				62C23864DFCF38DA4567CBA36E9DA677 /* Frameworks */,
+				FF663F52B7E3F5B89F919255A4B1C4C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6BA162FF87F46B831F704FEF34CD177 /* PBXTargetDependency */,
+				319239346D78AFFD22FF78B16374D28F /* PBXTargetDependency */,
+				7A86A7976B00C7559BF0F1BEE4EC5B32 /* PBXTargetDependency */,
+			);
+			name = "Pods-ControlPanel";
+			productName = "Pods-ControlPanel";
+			productReference = 3AEDDF28BB0623129DC83A6B2FE94164 /* Pods_ControlPanel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DAA9BA64CA73B8A37FCD98608B26386 /* ProgressKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF21153FC8CF4974DCC12303FC68F32 /* Build configuration list for PBXNativeTarget "ProgressKit" */;
+			buildPhases = (
+				EDDFAF186418E6F207E441ED0F4495E9 /* Sources */,
+				01CDB03A0D00EC1309BD618E4C7877B0 /* Frameworks */,
+				BADCA0D750EE40B98AF7DFE4DFA5FFE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressKit;
+			productName = ProgressKit;
+			productReference = B19F852DE4C1883A040980FAF4CCCEFB /* ProgressKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A51EC2C7B61E17C99EE904483D5D34D3 /* PubNub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C9C434579D9FBA5A07F6F5E8414D9E /* Build configuration list for PBXNativeTarget "PubNub" */;
+			buildPhases = (
+				7A3EB8D5559EE904640044923A79B791 /* Sources */,
+				C38B0CFAA6ACE2D5F636E4C5B93887B3 /* Frameworks */,
+				AADAF1785E1543E9D492434769920BAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PubNub;
+			productName = PubNub;
+			productReference = 95703F53B36A13272581648E077BE829 /* PubNub.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC9DB4CA88280C05EF3E715CB7EB4DDF /* Pods-ControlPanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5BDB7981C27D3A0DD95E326A35EAEE /* Build configuration list for PBXNativeTarget "Pods-ControlPanelTests" */;
+			buildPhases = (
+				9F17498B33938705BE7AEAB73A2CD60C /* Sources */,
+				5998121F806030F1B979C4EB9CF7940D /* Frameworks */,
+				1C1D8AD0BD8E03E1777194A5AA2BB288 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ControlPanelTests";
+			productName = "Pods-ControlPanelTests";
+			productReference = 26FCD4DE4729817451BF08465D983ACB /* Pods_ControlPanelTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D38167694E5D277A5487CAAE2C52E004 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C061A467E82C4E9169734CD01E51CD3 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				B7581E0AABD67D30A69E6C811F74BCEC /* Sources */,
+				7684A27F59DF8C31CEA604F7C89FC56D /* Frameworks */,
+				EF1527F9A8E2471160DE938F2FB5987F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 404F35A5F7FCDFC14F05EDA7895A9EA2 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFB9ED492266475B44B3D5E4C5143708 /* Pods-ControlPanelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB873743A2518B3E7DA2756AF6226810 /* Build configuration list for PBXNativeTarget "Pods-ControlPanelUITests" */;
+			buildPhases = (
+				9AA53DCB8225319F77704A01F35F22C0 /* Sources */,
+				221D55D70809ACCCF9597141767F078D /* Frameworks */,
+				4C894A42FE0A8C17EAB8081F3E682076 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ControlPanelUITests";
+			productName = "Pods-ControlPanelUITests";
+			productReference = CE6CB990C404AAC0D0AA48FFB53E0EEC /* Pods_ControlPanelUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E2671F022C3890A905CC357DBF5C1D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063C2F34470A786106F5EE71F3CDC35A /* Pods-ControlPanel */,
+				CC9DB4CA88280C05EF3E715CB7EB4DDF /* Pods-ControlPanelTests */,
+				FFB9ED492266475B44B3D5E4C5143708 /* Pods-ControlPanelUITests */,
+				9DAA9BA64CA73B8A37FCD98608B26386 /* ProgressKit */,
+				A51EC2C7B61E17C99EE904483D5D34D3 /* PubNub */,
+				D38167694E5D277A5487CAAE2C52E004 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A3EB8D5559EE904640044923A79B791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C148D4CCA49B0390B10E76EFB8BB5AF6 /* NSURLSessionConfiguration+PNConfiguration.m in Sources */,
+				7B3A716973A804991FFDBE690C4D8257 /* PNAcknowledgmentStatus.m in Sources */,
+				02109C98E4084D163B2077CA3033EB1F /* PNAES.m in Sources */,
+				1EFC254E37B647586D59CB70F40704CF /* PNAPICallBuilder.m in Sources */,
+				FA3BBCD0380F26BFC228D840B6B3B564 /* PNAPNSAPICallBuilder.m in Sources */,
+				9D58F9F13E14F4AC14C4DE183EB68F0B /* PNAPNSAuditAPICallBuilder.m in Sources */,
+				A18BB466F0D6767BF5267C5681536BC9 /* PNAPNSEnabledChannelsResult.m in Sources */,
+				8C39488E3B83B36454AB425D5180BA95 /* PNAPNSModificationAPICallBuilder.m in Sources */,
+				CEA295B64BDE33E6796A7EF70F2998C0 /* PNArray.m in Sources */,
+				DA123795F4430E15FE899A0FA2C719DC /* PNChannel.m in Sources */,
+				3497C8DA3EF86850E4F475C820525B2D /* PNChannelClientStateResult.m in Sources */,
+				4651F98045527C04B950373E24D7A8B8 /* PNChannelGroupAuditionParser.m in Sources */,
+				A9DB40FCB2910862EF9D0FE29D4083D5 /* PNChannelGroupChannelsResult.m in Sources */,
+				DC28A7139CD99F770F6DB19D0E31E384 /* PNChannelGroupClientStateResult.m in Sources */,
+				D28EB7BAA52EA4C4B081E194CDF1039A /* PNChannelGroupModificationParser.m in Sources */,
+				9C8F4DFFBEE25D24843B6DAC9778B6A1 /* PNChannelGroupsResult.m in Sources */,
+				1FC64CF010A031310E2ECA1F893151A1 /* PNClientInformation.m in Sources */,
+				16169E1743898A0D6A1D5D6241F910EF /* PNClientState.m in Sources */,
+				470A2FF6DA16869CD04EDD20C58A0E49 /* PNClientStateParser.m in Sources */,
+				EEF3ECCDFE81726E3357F40658125DE5 /* PNClientStateUpdateStatus.m in Sources */,
+				916ED7F830733D16EDD079ACC386D0F1 /* PNConfiguration.m in Sources */,
+				B20C03D4C975621D6C54B13E78225E83 /* PNData.m in Sources */,
+				5B02E64F4588419F1914A9404F713A54 /* PNDictionary.m in Sources */,
+				A0AEB3FC0D571DDEECCA1252EFE608A2 /* PNEnvelopeInformation.m in Sources */,
+				CD69FFC10381F60FE3F5CCD36583703D /* PNErrorParser.m in Sources */,
+				F058D2D2496EB4FC0A57826272C2D6CD /* PNErrorStatus.m in Sources */,
+				DDF3474045D4260BB99593B32099158C /* PNGZIP.m in Sources */,
+				251FBFDEAFCA3AF310AC7BECCA891A94 /* PNHeartbeat.m in Sources */,
+				F00C2B513A3FA83612E930D78D99ACF4 /* PNHeartbeatParser.m in Sources */,
+				749FC177A829CEB0CF4D04FE2E073743 /* PNHistoryAPICallBuilder.m in Sources */,
+				8990DD001E6109553C4054D95D4A8B87 /* PNHistoryParser.m in Sources */,
+				51FB9B1A01DC2FF6C0AAEEE0080B8A96 /* PNHistoryResult.m in Sources */,
+				2183409DDCB781806D9E259A2FCC644E /* PNJSON.m in Sources */,
+				D5E068EDD83C02CA162CF4DF9ACDE424 /* PNKeychain.m in Sources */,
+				04240FC95FECC84B3B716400BA3BC3BF /* PNLeaveParser.m in Sources */,
+				3618A63F3B9A81A15A81EEF27205B828 /* PNLLogFileInformation.m in Sources */,
+				C99141DDC15D9F9BE8D5F48FBE9901EA /* PNLLogger.m in Sources */,
+				0335FD21E527509E68E240B2045FD733 /* PNMessagePublishParser.m in Sources */,
+				6C0FB9A7433F4E985AD130FA7FDF9E65 /* PNNetwork.m in Sources */,
+				C63F0F86DE4BF9FF43D902F338AA03D1 /* PNNetworkResponseSerializer.m in Sources */,
+				8C236DDDE7A7B54F7A27674C7DC4A15B /* PNNumber.m in Sources */,
+				B9BC75F84EA94F0705CD74A0AE2AC805 /* PNPresenceAPICallBuilder.m in Sources */,
+				3669AE2B6179824EE0165FCC1AC443E8 /* PNPresenceChannelGroupHereNowAPICallBuilder.m in Sources */,
+				E2BBD1A3752B1E591802C6AF145C2EC8 /* PNPresenceChannelGroupHereNowResult.m in Sources */,
+				D134E7217729DBFBD8E62AD485B2554F /* PNPresenceChannelHereNowAPICallBuilder.m in Sources */,
+				57C91B20104B716D67BE32042CE10D10 /* PNPresenceChannelHereNowResult.m in Sources */,
+				2510977799877D915C53844300DF564D /* PNPresenceGlobalHereNowResult.m in Sources */,
+				EE260C390D168C928F483307FC954FA1 /* PNPresenceHereNowAPICallBuilder.m in Sources */,
+				F009786D5946385EE1A9990955D0152E /* PNPresenceHereNowParser.m in Sources */,
+				1378D1713EB9DFA656EC2E7019A581CD /* PNPresenceWhereNowAPICallBuilder.m in Sources */,
+				7C4CF67B7A0A4A7EF7375D3DFFBA6937 /* PNPresenceWhereNowParser.m in Sources */,
+				237CE8183B24FC8A9E7E1D5A70A718B5 /* PNPresenceWhereNowResult.m in Sources */,
+				5F2A2EF78C70F831D11939C69B574604 /* PNPublishAPICallBuilder.m in Sources */,
+				B55FF6419D936356583BEE1A55CBE7A2 /* PNPublishSequence.m in Sources */,
+				191E52BED136BD49EA8A008EE0800431 /* PNPublishSizeAPICallBuilder.m in Sources */,
+				70B3CE873FFFCDAE846D7890D175A1CA /* PNPublishStatus.m in Sources */,
+				6F4F09F7EED554DEA3240D595E34D457 /* PNPushNotificationsAuditParser.m in Sources */,
+				76C78D62EF7D5E0FF0061D8111EF0DAE /* PNPushNotificationsStateModificationParser.m in Sources */,
+				CAC85FED115FBDFF816E2185E564FA15 /* PNReachability.m in Sources */,
+				9052171EC7C6B09B1474D32AEBC48BE4 /* PNRequestParameters.m in Sources */,
+				26FF52CDC1BE3C213B9EA0C09AE0308B /* PNResult.m in Sources */,
+				CD4848BD833BBD2B65CFC3D451DBA1CA /* PNServiceData.m in Sources */,
+				2792C03E9BBB084958464381A31BBA61 /* PNStateAPICallBuilder.m in Sources */,
+				E19DD5754A885087771241B9EAD86B78 /* PNStateAuditAPICallBuilder.m in Sources */,
+				4A3BD81E8EE7772C252881E29C73AF51 /* PNStateListener.m in Sources */,
+				7FCD7F741F56A4F8A8A55B9FA46297A1 /* PNStateModificationAPICallBuilder.m in Sources */,
+				DA98BE65C935D3C76D382E33AA948AD9 /* PNStatus.m in Sources */,
+				9AAF5789CF87AC8D6C8E8D7906820F42 /* PNStreamAPICallBuilder.m in Sources */,
+				22E83FBCB523E3C98349AA4C04133BBF /* PNStreamAuditAPICallBuilder.m in Sources */,
+				A7910BDA2444E2CC69EF1CF760557F68 /* PNStreamModificationAPICallBuilder.m in Sources */,
+				B6CB96BEC9F635EB4D1591D735172FA6 /* PNString.m in Sources */,
+				D79F6B7887B64A2FFCD28DBD152E9CAF /* PNSubscribeAPIBuilder.m in Sources */,
+				D2E7F5D62BA9569E15BA03C9B0094B2C /* PNSubscribeChannelsOrGroupsAPIBuilder.m in Sources */,
+				CB675CAF8E0F6CAE98DE0CF72559DA4B /* PNSubscribeParser.m in Sources */,
+				72B92EDAB0F71BA266F0957D89CDFC33 /* PNSubscriber.m in Sources */,
+				938DF44536E5385BE5EE54547B9AB2A4 /* PNSubscriberResults.m in Sources */,
+				80869D72F2F504E852E57EBC43EA4EC0 /* PNSubscribeStatus.m in Sources */,
+				8796D4196916A00A6AA1C2EF3C3BF0B1 /* PNTimeAPICallBuilder.m in Sources */,
+				DE217B2388D6C534A6FD0E64DDE242DB /* PNTimeParser.m in Sources */,
+				7C6326FBBD39D4FBAD28F420B3B85ED1 /* PNTimeResult.m in Sources */,
+				A06FFA01B30118DA52DC2AFE90F28E0C /* PNUnsubscribeAPICallBuilder.m in Sources */,
+				5EB99CD9A8CB592C17E101A81F9642C3 /* PNUnsubscribeChannelsOrGroupsAPICallBuilder.m in Sources */,
+				BA827FA80883B26CF88AA963757BD644 /* PNURLBuilder.m in Sources */,
+				2F630A57D30EF4B580E57C26FE8B3870 /* PNURLRequest.m in Sources */,
+				76C6C596C09008BBA6BF2F3FD43017FB /* PubNub+APNS.m in Sources */,
+				F63B70B55F6D3DE1FFE46FF284B687E6 /* PubNub+ChannelGroup.m in Sources */,
+				0617A3AA979405A1DFD83FB00B8A95CC /* PubNub+Core.m in Sources */,
+				C34CECF51DFF502986BB21154BFB8A7A /* PubNub+History.m in Sources */,
+				7CE04EED285E5C3427BBA03511EBF61F /* PubNub+Presence.m in Sources */,
+				89D9A32F30F750F78BA81468A08803CE /* PubNub+Publish.m in Sources */,
+				C2957BDD978AC63F22A5EFDC58A27D06 /* PubNub+State.m in Sources */,
+				8AF9B62D28C371410401E1AAF77090DE /* PubNub+Subscribe.m in Sources */,
+				B982488C6139BB023FB6288A9862D743 /* PubNub+Time.m in Sources */,
+				47E6DB452EE0D21E8D2F6E8AFCE73DCC /* PubNub-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA53DCB8225319F77704A01F35F22C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA778C3EB435841575D12712B3CEDBA /* Pods-ControlPanelUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F17498B33938705BE7AEAB73A2CD60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11049033C0E834D699733D94128D23E /* Pods-ControlPanelTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7581E0AABD67D30A69E6C811F74BCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6582D60579186F9F75BC4742B243B059 /* SwiftyJSON-dummy.m in Sources */,
+				C385EEA12BAA3D144EE5BE1F0397DE1A /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDFAF186418E6F207E441ED0F4495E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4FE064AEEA6B64043E56A29264338E /* BaseView.swift in Sources */,
+				383B4A0214CFA2D9128F416462F05D4C /* CircularProgressView.swift in Sources */,
+				0BCE8E56CD5B874E683740EBA92171CA /* Crawler.swift in Sources */,
+				A23A1FFD1CE8577B38997F82D465EF36 /* DeterminateAnimation.swift in Sources */,
+				93B8927C83B3003A6EC4CD5B490BE583 /* IndeterminateAnimation.swift in Sources */,
+				5FC89CEA7A752F14C073F8814E1E146E /* MaterialProgress.swift in Sources */,
+				A58BF80F406C7F5CB23C9D5734240D1B /* ProgressBar.swift in Sources */,
+				0B0E7E1AEE8ACEB404560B54D224C085 /* ProgressKit-dummy.m in Sources */,
+				855CF82F56BD45C5B6A96644D20F88A6 /* ProgressUtils.swift in Sources */,
+				BFDC9C14B6CAE9AF83E6CBC754799C5B /* Rainbow.swift in Sources */,
+				673BF0F1766C28D5F584BEC729343E24 /* RotatingArc.swift in Sources */,
+				F24B8503159D156810CB518A16381D75 /* ShootingStars.swift in Sources */,
+				B019DD95AC43A546203DE94FFECE152E /* Spinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AEF4897921993608E8F8B6844099B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18424908FEEAD7F39641A8FBEA83068 /* Pods-ControlPanel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		319239346D78AFFD22FF78B16374D28F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PubNub;
+			target = A51EC2C7B61E17C99EE904483D5D34D3 /* PubNub */;
+			targetProxy = C13D01ED2236B4F578187402540C56E1 /* PBXContainerItemProxy */;
+		};
+		7A86A7976B00C7559BF0F1BEE4EC5B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D38167694E5D277A5487CAAE2C52E004 /* SwiftyJSON */;
+			targetProxy = 3D2A8FBDF8A393026A046F009A992A88 /* PBXContainerItemProxy */;
+		};
+		D6BA162FF87F46B831F704FEF34CD177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProgressKit;
+			target = 9DAA9BA64CA73B8A37FCD98608B26386 /* ProgressKit */;
+			targetProxy = 57E77C27AC292DD386F8A383878698F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		278386FE46B0B6FCDEAF841BE434CAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F698AC4A187C02AE455949F4E802635C /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D4A784E15001294FF959AED285A5F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F698AC4A187C02AE455949F4E802635C /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F917246FA735115B10F542CAEB75783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060B740659164CD224545B0406642BE6 /* PubNub.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PubNub/PubNub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PubNub/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/PubNub/PubNub.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PubNub;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5757FED4613AC9D27F89518356DF812A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0335766CEE743A4F62444E1F3E99B63 /* ProgressKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressKit/ProgressKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ProgressKit/ProgressKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ProgressKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EAFAB62D137ED94D8A286DCF3912A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F604E6E23AAC974E07E9E54A6807CDDE /* Pods-ControlPanelUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ControlPanelUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ControlPanelUITests/Pods-ControlPanelUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ControlPanelUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67318C0D666F1A558306305C97454E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4284488AC877F9AD0A5E92AAB8ED4B32 /* Pods-ControlPanel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ControlPanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ControlPanel/Pods-ControlPanel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ControlPanel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68C14F2174F020C8E7AC11EE1E1C1F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0335766CEE743A4F62444E1F3E99B63 /* ProgressKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressKit/ProgressKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ProgressKit/ProgressKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ProgressKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A52DB6ED541953920F6C92A4B36E785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C47B7336D6771321CF224893EF545C /* Pods-ControlPanelUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ControlPanelUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ControlPanelUITests/Pods-ControlPanelUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ControlPanelUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EBF470CE1705B2BB5FE63855E5E02F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64CE263B6D97B1E137DE75122F4D1CB /* Pods-ControlPanelTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ControlPanelTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ControlPanelTests/Pods-ControlPanelTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ControlPanelTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9420A7205B8F85520AF134F4EE25F7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2FEA35C8BDA3E3D9956D316C8F2BA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060B740659164CD224545B0406642BE6 /* PubNub.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PubNub/PubNub-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PubNub/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/PubNub/PubNub.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PubNub;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BABA737BD5BB0CD7FBCAF1BE73BB81B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A219700399C8A6662C7A62967104731 /* Pods-ControlPanelTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ControlPanelTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ControlPanelTests/Pods-ControlPanelTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ControlPanelTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F653E316AB5F825D3AD0CAE700E37071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FD3F874C89E4F801DBCD5AF9E0552ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0096F0FF573F760CBDE04F4BC34D91 /* Pods-ControlPanel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ControlPanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ControlPanel/Pods-ControlPanel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ControlPanel;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C9C434579D9FBA5A07F6F5E8414D9E /* Build configuration list for PBXNativeTarget "PubNub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F917246FA735115B10F542CAEB75783 /* Debug */,
+				B2FEA35C8BDA3E3D9956D316C8F2BA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C10EFC047CC46F610B061473BCDD412 /* Build configuration list for PBXNativeTarget "Pods-ControlPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67318C0D666F1A558306305C97454E25 /* Debug */,
+				FD3F874C89E4F801DBCD5AF9E0552ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F653E316AB5F825D3AD0CAE700E37071 /* Debug */,
+				9420A7205B8F85520AF134F4EE25F7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C061A467E82C4E9169734CD01E51CD3 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278386FE46B0B6FCDEAF841BE434CAEC /* Debug */,
+				4D4A784E15001294FF959AED285A5F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB873743A2518B3E7DA2756AF6226810 /* Build configuration list for PBXNativeTarget "Pods-ControlPanelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A52DB6ED541953920F6C92A4B36E785 /* Debug */,
+				5EAFAB62D137ED94D8A286DCF3912A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5BDB7981C27D3A0DD95E326A35EAEE /* Build configuration list for PBXNativeTarget "Pods-ControlPanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABA737BD5BB0CD7FBCAF1BE73BB81B0 /* Debug */,
+				7EBF470CE1705B2BB5FE63855E5E02F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF21153FC8CF4974DCC12303FC68F32 /* Build configuration list for PBXNativeTarget "ProgressKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5757FED4613AC9D27F89518356DF812A /* Debug */,
+				68C14F2174F020C8E7AC11EE1E1C1F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
