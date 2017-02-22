@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+
+class Constants {
+    static let START_HINT = "Please press space key before you start the trial!"
+    static let STOP_HINT = "Please press space key after you finish the trial!"
+
+}

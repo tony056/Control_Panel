@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
         <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
+        <capability name="system font weights other than Regular or Bold" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -827,13 +828,9 @@
                                     <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OOP-vC-TBp">
                                         <rect key="frame" x="0.0" y="32" width="814" height="360"/>
                                         <subviews>
-                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dvT-g4-eEC">
+                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="xg4-Gs-tdz">
                                                 <rect key="frame" x="0.0" y="0.0" width="403" height="360"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="CsO-c5-xmQ"/>
-                                                </constraints>
-                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="top" imageScaling="proportionallyDown" id="vru-hu-gMA"/>
-                                            </imageView>
+                                            </customView>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRq-sf-YZD">
                                                 <rect key="frame" x="409" y="0.0" width="407" height="360"/>
                                                 <constraints>
@@ -847,12 +844,11 @@
                                             </textField>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="dvT-g4-eEC" secondAttribute="bottom" id="CFe-Ed-TIe"/>
                                             <constraint firstAttribute="width" constant="814" id="HLw-js-Ibv"/>
-                                            <constraint firstItem="dvT-g4-eEC" firstAttribute="leading" secondItem="OOP-vC-TBp" secondAttribute="leading" id="XiT-4r-01M"/>
-                                            <constraint firstItem="hRq-sf-YZD" firstAttribute="leading" secondItem="dvT-g4-eEC" secondAttribute="trailing" constant="8" symbolic="YES" id="bfZ-No-DbU"/>
+                                            <constraint firstItem="xg4-Gs-tdz" firstAttribute="height" secondItem="OOP-vC-TBp" secondAttribute="height" id="LsB-A6-Lx4"/>
+                                            <constraint firstItem="hRq-sf-YZD" firstAttribute="leading" secondItem="xg4-Gs-tdz" secondAttribute="trailing" constant="8" id="WeM-4c-WhV"/>
+                                            <constraint firstItem="xg4-Gs-tdz" firstAttribute="width" secondItem="hRq-sf-YZD" secondAttribute="width" id="aqP-Wq-p5C"/>
                                             <constraint firstItem="hRq-sf-YZD" firstAttribute="height" secondItem="OOP-vC-TBp" secondAttribute="height" id="fXk-AO-ZT8"/>
-                                            <constraint firstItem="dvT-g4-eEC" firstAttribute="width" secondItem="hRq-sf-YZD" secondAttribute="width" id="rAh-Fu-5c6"/>
                                         </constraints>
                                         <visibilityPriorities>
                                             <integer value="1000"/>
@@ -866,7 +862,7 @@
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCi-Os-W2c">
                                         <rect key="frame" x="-2" y="0.0" width="924" height="24"/>
                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="95I-tJ-H6g">
-                                            <font key="font" metaFont="system" size="20"/>
+                                            <font key="font" metaFont="systemHeavy" size="20"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -900,6 +896,7 @@
                         <outlet property="displayTaskLabel" destination="qqf-Ln-0SX" id="m0z-ok-oA3"/>
                         <outlet property="displayTrialLabel" destination="hRq-sf-YZD" id="iHr-Xb-djX"/>
                         <outlet property="instructionLabel" destination="FCi-Os-W2c" id="IJ2-mP-XVZ"/>
+                        <outlet property="videoDisplayView" destination="xg4-Gs-tdz" id="wDA-hC-ka1"/>
                         <outlet property="waitingProgress" destination="EEb-Y7-HyN" id="iyV-WX-5eP"/>
                     </connections>
                 </viewController>

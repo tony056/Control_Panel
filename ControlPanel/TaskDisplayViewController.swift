@@ -8,12 +8,14 @@
 
 import Cocoa
 import ProgressKit
+import AVKit
+import AVFoundation
 
 class TaskDisplayViewController: NSViewController {
 
     let tasks = ["Tap", "Swipe Up"	, "Swipe Down", "Swipe Right", "Swipe left", "Pinch In", "Pinch Out"]
     let tasks_for_name = ["Tap", "SwipeUp"	, "SwipeDown", "SwipeRight", "SwipeLeft", "PinchIn", "PinchOut"]
-    let instructions = ["Start", "Stop"]
+    let instructions = [Constants.START_HINT, Constants.STOP_HINT]
     
     var userName : String = ""
     var recordType : Bool = false // 0 is for training set, 1 is for evaluation set
@@ -21,9 +23,11 @@ class TaskDisplayViewController: NSViewController {
     var trialNum : Int = 3
     var currentTask : Int = 0
     var currentTrialNum : Int = 1
+    var avPlayer = AVPlayer()
+    var avPlayerLayer : AVPlayerLayer!
     
     
-    
+    @IBOutlet weak var videoDisplayView: NSView!
     @IBOutlet weak var waitingProgress: NSView!
     @IBOutlet weak var instructionLabel: NSTextField!
     @IBOutlet weak var displayTrialLabel: NSTextField!
@@ -44,7 +48,7 @@ class TaskDisplayViewController: NSViewController {
     
     func progressBarStatus() {
         self.waitingProgress.isHidden = !self.waitingProgress.isHidden
-        
+        self.updateStatus()
     }
     
     override func keyDown(with event: NSEvent) {
@@ -80,7 +84,7 @@ class TaskDisplayViewController: NSViewController {
         }
         self.isRecording = !self.isRecording
         progressWaiting()
-        updateUI()
+//        updateUI()
     }
     
     func progressWaiting(){
@@ -96,7 +100,7 @@ class TaskDisplayViewController: NSViewController {
         //send stop message
         //updateUI
         stopAction(content: "")
-        updateStatus()
+//        updateStatus()
     }
     
     func startTrial(){
@@ -116,30 +120,21 @@ class TaskDisplayViewController: NSViewController {
             return
         }
         
-//        updateUI()
+        updateUI()
     }
     
     func updateUI(){
         self.displayTaskLabel.stringValue = "" + self.tasks[self.currentTask]
         self.displayTrialLabel.stringValue = "" + String(self.currentTrialNum) + " / " + String(self.trialNum)
         self.instructionLabel.stringValue = self.instructions[Int(NSNumber(value: self.isRecording))]
+        self.loadVideoToView()
     }
     
     func initUI(){
-        self.displayTrialLabel.alignment = .center
-        let tf : NSTextField = self.displayTrialLabel
-        let stringHeight : CGFloat = self.displayTrialLabel.attributedStringValue.size().height
-        let frame = self.displayTrialLabel.frame
-        var titleRect: NSRect = self.displayTrialLabel.cell!.titleRect(forBounds: frame)
-        
-        titleRect.size.height = stringHeight + ( stringHeight - (tf.font!.ascender + tf.font!.descender ) )
-        titleRect.origin.y = frame.size.height / 2  - tf.lastBaselineOffsetFromBottom - tf.font!.xHeight / 2
-        tf.frame = titleRect
         
         ControlManager.shareInstance.sendChannelInfo(user: self.userName)
-        
         self.waitingProgress.isHidden = true
-        
+        self.loadVideoToView()
     }
     
     func startAction(content: String){
@@ -156,6 +151,23 @@ class TaskDisplayViewController: NSViewController {
         fileName += self.tasks_for_name[self.currentTask] + "_"
         fileName += String(self.currentTrialNum)
         return fileName
+    }
+    
+    func loadVideoToView(){
+//        Bundle.main.resourcePath + "/" + 
+        if let filePath = Bundle.main.path(forResource: "Task_" + String(self.currentTask + 1), ofType: "m4v") {
+            
+            let fileURL = URL(fileURLWithPath: filePath)
+            
+            self.avPlayer = AVPlayer(url: fileURL)
+            self.avPlayerLayer = AVPlayerLayer(player: self.avPlayer)
+            self.videoDisplayView.wantsLayer = true
+            self.avPlayerLayer.frame = self.videoDisplayView.bounds
+//            self.videoDisplayView.layer?.insertSublayer(videoLayer, at: 0)
+            self.videoDisplayView.layer?.addSublayer(self.avPlayerLayer)
+            self.avPlayer.play()
+        }
+        
     }
     
     

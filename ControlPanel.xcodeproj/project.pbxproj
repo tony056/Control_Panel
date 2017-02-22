@@ -14,6 +14,15 @@
 		80BD8E251E56184E00E19477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BD8E231E56184E00E19477 /* Main.storyboard */; };
 		80BD8E301E56184E00E19477 /* ControlPanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD8E2F1E56184E00E19477 /* ControlPanelTests.swift */; };
 		80BD8E3B1E56184E00E19477 /* ControlPanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD8E3A1E56184E00E19477 /* ControlPanelUITests.swift */; };
+		80D3918F1E5D3E4E00766D6B /* Training_Tap.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 80D3918E1E5D3CEA00766D6B /* Training_Tap.m4v */; };
+		80D391971E5D637C00766D6B /* Task_1.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 80D391901E5D611600766D6B /* Task_1.m4v */; };
+		80D391981E5D637C00766D6B /* Task_2.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 80D391911E5D611600766D6B /* Task_2.m4v */; };
+		80D391991E5D637C00766D6B /* Task_3.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 80D391921E5D611600766D6B /* Task_3.m4v */; };
+		80D3919A1E5D637C00766D6B /* Task_4.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 80D391931E5D611600766D6B /* Task_4.m4v */; };
+		80D3919B1E5D637C00766D6B /* Task_5.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 80D391941E5D611600766D6B /* Task_5.m4v */; };
+		80D3919C1E5D637C00766D6B /* Task_6.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 80D391951E5D611600766D6B /* Task_6.m4v */; };
+		80D3919D1E5D637C00766D6B /* Task_7.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 80D391961E5D611600766D6B /* Task_7.m4v */; };
+		80D391A11E5D65A400766D6B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D391A01E5D65A400766D6B /* Constants.swift */; };
 		80F35BC01E5A78D100D29BAA /* TaskDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F35BBF1E5A78D100D29BAA /* TaskDisplayViewController.swift */; };
 		BEA4AC8FC1512661DA33AD4E /* Pods_ControlPanelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DE02D0071C25E29C7106F2 /* Pods_ControlPanelTests.framework */; };
 		D29495E8B17F4F043971FC71 /* Pods_ControlPanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A549D5EFA939FC03069371BC /* Pods_ControlPanel.framework */; };
@@ -54,6 +63,15 @@
 		80BD8E361E56184E00E19477 /* ControlPanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlPanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BD8E3A1E56184E00E19477 /* ControlPanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelUITests.swift; sourceTree = "<group>"; };
 		80BD8E3C1E56184E00E19477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D3918E1E5D3CEA00766D6B /* Training_Tap.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Training_Tap.m4v; sourceTree = "<group>"; };
+		80D391901E5D611600766D6B /* Task_1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Task_1.m4v; sourceTree = "<group>"; };
+		80D391911E5D611600766D6B /* Task_2.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Task_2.m4v; sourceTree = "<group>"; };
+		80D391921E5D611600766D6B /* Task_3.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Task_3.m4v; sourceTree = "<group>"; };
+		80D391931E5D611600766D6B /* Task_4.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Task_4.m4v; sourceTree = "<group>"; };
+		80D391941E5D611600766D6B /* Task_5.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Task_5.m4v; sourceTree = "<group>"; };
+		80D391951E5D611600766D6B /* Task_6.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Task_6.m4v; sourceTree = "<group>"; };
+		80D391961E5D611600766D6B /* Task_7.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Task_7.m4v; sourceTree = "<group>"; };
+		80D391A01E5D65A400766D6B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		80F35BBF1E5A78D100D29BAA /* TaskDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDisplayViewController.swift; sourceTree = "<group>"; };
 		9D7CC1DD60FC302491CBB303 /* Pods-ControlPanelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ControlPanelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ControlPanelUITests/Pods-ControlPanelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A31C548977E70622BF8FA47B /* Pods-ControlPanelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ControlPanelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ControlPanelUITests/Pods-ControlPanelUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +157,14 @@
 		80BD8E1C1E56184E00E19477 /* ControlPanel */ = {
 			isa = PBXGroup;
 			children = (
+				80D391901E5D611600766D6B /* Task_1.m4v */,
+				80D391911E5D611600766D6B /* Task_2.m4v */,
+				80D391921E5D611600766D6B /* Task_3.m4v */,
+				80D391931E5D611600766D6B /* Task_4.m4v */,
+				80D391941E5D611600766D6B /* Task_5.m4v */,
+				80D391951E5D611600766D6B /* Task_6.m4v */,
+				80D391961E5D611600766D6B /* Task_7.m4v */,
+				80D3918E1E5D3CEA00766D6B /* Training_Tap.m4v */,
 				80BD8E1D1E56184E00E19477 /* AppDelegate.swift */,
 				80BD8E1F1E56184E00E19477 /* ViewController.swift */,
 				80BD8E211E56184E00E19477 /* Assets.xcassets */,
@@ -146,6 +172,7 @@
 				80BD8E261E56184E00E19477 /* Info.plist */,
 				80F35BBF1E5A78D100D29BAA /* TaskDisplayViewController.swift */,
 				800E443C1E5AD3C1005EB2B2 /* ControlManager.swift */,
+				80D391A01E5D65A400766D6B /* Constants.swift */,
 			);
 			path = ControlPanel;
 			sourceTree = "<group>";
@@ -284,6 +311,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D391971E5D637C00766D6B /* Task_1.m4v in Resources */,
+				80D391981E5D637C00766D6B /* Task_2.m4v in Resources */,
+				80D391991E5D637C00766D6B /* Task_3.m4v in Resources */,
+				80D3919A1E5D637C00766D6B /* Task_4.m4v in Resources */,
+				80D3919B1E5D637C00766D6B /* Task_5.m4v in Resources */,
+				80D3919C1E5D637C00766D6B /* Task_6.m4v in Resources */,
+				80D3919D1E5D637C00766D6B /* Task_7.m4v in Resources */,
+				80D3918F1E5D3E4E00766D6B /* Training_Tap.m4v in Resources */,
 				80BD8E221E56184E00E19477 /* Assets.xcassets in Resources */,
 				80BD8E251E56184E00E19477 /* Main.storyboard in Resources */,
 			);
@@ -448,6 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D391A11E5D65A400766D6B /* Constants.swift in Sources */,
 				80F35BC01E5A78D100D29BAA /* TaskDisplayViewController.swift in Sources */,
 				80BD8E201E56184E00E19477 /* ViewController.swift in Sources */,
 				80BD8E1E1E56184E00E19477 /* AppDelegate.swift in Sources */,
