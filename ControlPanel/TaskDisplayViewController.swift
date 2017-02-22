@@ -44,6 +44,11 @@ class TaskDisplayViewController: NSViewController {
         }
         
         NotificationCenter.default.addObserver(self, selector: #selector(progressBarStatus), name: Notification.Name(rawValue: "ok"), object: nil)
+        NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: self.avPlayer.currentItem, queue: nil, using: {_ in 
+            let seekTime = CMTimeMake(0, 1)
+            self.avPlayer.seek(to: seekTime)
+            self.avPlayer.play()
+        })
     }
     
     func progressBarStatus() {

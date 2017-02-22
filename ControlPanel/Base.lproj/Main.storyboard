@@ -831,24 +831,58 @@
                                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="xg4-Gs-tdz">
                                                 <rect key="frame" x="0.0" y="0.0" width="403" height="360"/>
                                             </customView>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRq-sf-YZD">
-                                                <rect key="frame" x="409" y="0.0" width="407" height="360"/>
+                                            <splitView arrangesAllSubviews="NO" dividerStyle="paneSplitter" translatesAutoresizingMaskIntoConstraints="NO" id="w4Y-qg-MwJ">
+                                                <rect key="frame" x="411" y="0.0" width="403" height="360"/>
+                                                <subviews>
+                                                    <customView id="ufL-CK-EnZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="403" height="171"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohp-A4-B66">
+                                                                <rect key="frame" x="-2" y="-10" width="407" height="181"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Trial:" id="Kks-Ct-4Lt">
+                                                                    <font key="font" metaFont="system" size="31"/>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                            </textField>
+                                                        </subviews>
+                                                    </customView>
+                                                    <customView id="MCH-C9-g6C">
+                                                        <rect key="frame" x="0.0" y="181" width="403" height="179"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRq-sf-YZD">
+                                                                <rect key="frame" x="140" y="61" width="123" height="57"/>
+                                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" usesSingleLineMode="YES" id="Cxf-Hc-8I8">
+                                                                    <font key="font" metaFont="system" size="48"/>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="hRq-sf-YZD" firstAttribute="centerY" secondItem="MCH-C9-g6C" secondAttribute="centerY" id="TiR-J7-oki"/>
+                                                            <constraint firstItem="hRq-sf-YZD" firstAttribute="centerX" secondItem="MCH-C9-g6C" secondAttribute="centerX" id="rU7-hP-Mrq"/>
+                                                        </constraints>
+                                                    </customView>
+                                                </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="360" id="tL7-vi-Kf1"/>
+                                                    <constraint firstItem="ufL-CK-EnZ" firstAttribute="height" secondItem="MCH-C9-g6C" secondAttribute="height" id="bkD-Cr-oTc"/>
                                                 </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" usesSingleLineMode="YES" id="Cxf-Hc-8I8">
-                                                    <font key="font" metaFont="system" size="48"/>
-                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
+                                                <holdingPriorities>
+                                                    <real value="250"/>
+                                                    <real value="250"/>
+                                                </holdingPriorities>
+                                            </splitView>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="w4Y-qg-MwJ" firstAttribute="width" secondItem="xg4-Gs-tdz" secondAttribute="width" id="6Pj-hh-sXV"/>
+                                            <constraint firstItem="ufL-CK-EnZ" firstAttribute="width" secondItem="xg4-Gs-tdz" secondAttribute="width" id="86w-eh-5Ht"/>
                                             <constraint firstAttribute="width" constant="814" id="HLw-js-Ibv"/>
                                             <constraint firstItem="xg4-Gs-tdz" firstAttribute="height" secondItem="OOP-vC-TBp" secondAttribute="height" id="LsB-A6-Lx4"/>
-                                            <constraint firstItem="hRq-sf-YZD" firstAttribute="leading" secondItem="xg4-Gs-tdz" secondAttribute="trailing" constant="8" id="WeM-4c-WhV"/>
-                                            <constraint firstItem="xg4-Gs-tdz" firstAttribute="width" secondItem="hRq-sf-YZD" secondAttribute="width" id="aqP-Wq-p5C"/>
-                                            <constraint firstItem="hRq-sf-YZD" firstAttribute="height" secondItem="OOP-vC-TBp" secondAttribute="height" id="fXk-AO-ZT8"/>
+                                            <constraint firstItem="w4Y-qg-MwJ" firstAttribute="height" secondItem="OOP-vC-TBp" secondAttribute="height" id="S85-g0-2IN"/>
                                         </constraints>
                                         <visibilityPriorities>
                                             <integer value="1000"/>
@@ -861,7 +895,7 @@
                                     </stackView>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCi-Os-W2c">
                                         <rect key="frame" x="-2" y="0.0" width="924" height="24"/>
-                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="95I-tJ-H6g">
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="95I-tJ-H6g">
                                             <font key="font" metaFont="systemHeavy" size="20"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
